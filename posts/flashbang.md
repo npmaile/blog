@@ -1,4 +1,4 @@
-# Please Don't Flashbangme
+# Please Don't Flashbang Me
 I use darkmode. I'm not going to defend this choice.
 
 Browsers and operating systems understand this.
