@@ -6,18 +6,10 @@ Browsers and operating systems understand this.
 You can make simple black and white websites understand this as well
 
 ```css
-
-body {
-  background-color: black;
-  color: white;
-}
-@media screen and (prefers-color-scheme: light) {
-  body {
-    background-color: white;
-    color: black;
-  }
+:root {
+  color-scheme: light dark;
 }
 ```
-I stole this code, and you can steal it too
+I [stole this code](https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme), and you can steal it too
 
 [see it in use](https://npmaile.com)
