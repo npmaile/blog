@@ -1,0 +1,331 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .group         0x00000000        0xc build/src/main.o
+ .text          0x00000000        0x0 build/src/main.o
+ .data          0x00000000        0x0 build/src/main.o
+ .bss           0x00000000        0x0 build/src/main.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .group         0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .text          0x00000000        0x0 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .data          0x00000000        0x0 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .bss           0x00000000        0x0 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .text._malloc_r
+                0x00000000        0xc build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .text._realloc_r
+                0x00000000       0x10 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .text._free_r  0x00000000       0x14 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000      0xad8 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x22 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000      0x103 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x6a build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000      0x1df build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x2a build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x3c build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x34 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x16 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x16 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x4a build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x34 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x10 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x58 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000      0x1de build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000      0x369 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x16 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x29 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x2e build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x16 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x3c build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000       0x22 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00000000      0x19b build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/src/main.o
+LOAD build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+END GROUP
+
+.text           0x00000000      0x171
+ *(.text)
+ *(.text.*)
+ .text.update   0x00000000       0x84 build/src/main.o
+ *fill*         0x00000084        0xc 
+ .text.eventHandler
+                0x00000090       0x58 build/src/main.o
+                0x00000090                eventHandler
+ *fill*         0x000000e8        0x8 
+ .text.eventHandlerShim
+                0x000000f0       0x1c build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+                0x000000f0                eventHandlerShim
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.update.str1.4
+                0x0000010c       0x65 build/src/main.o
+                                  0xd (size before relaxing)
+ .rodata.eventHandler.str1.4
+                0x00000171       0x2c build/src/main.o
+ .rodata.str1.4
+                0x00000171       0x29 build/src/main.o
+ *(.eh_frame*)
+
+.glue_7         0x00000174        0x0
+ .glue_7        0x00000174        0x0 linker stubs
+
+.glue_7t        0x00000174        0x0
+ .glue_7t       0x00000174        0x0 linker stubs
+
+.vfp11_veneer   0x00000174        0x0
+ .vfp11_veneer  0x00000174        0x0 linker stubs
+
+.v4_bx          0x00000174        0x0
+ .v4_bx         0x00000174        0x0 linker stubs
+
+.iplt           0x00000174        0x0
+ .iplt          0x00000174        0x0 build/src/main.o
+
+.rel.dyn        0x00000174        0x0
+ .rel.iplt      0x00000174        0x0 build/src/main.o
+
+.data           0x00000174       0x14
+                0x00000174                        __etext = .
+                0x00000174                        __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.dy       0x00000174        0x4 build/src/main.o
+                0x00000174                dy
+ .data.dx       0x00000178        0x4 build/src/main.o
+                0x00000178                dx
+ .data.y        0x0000017c        0x4 build/src/main.o
+                0x0000017c                y
+ .data.x        0x00000180        0x4 build/src/main.o
+                0x00000180                x
+ .data.fontpath
+                0x00000184        0x4 build/src/main.o
+                0x00000184                fontpath
+                0x00000188                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+                0x00000188                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = .)
+                0x00000188                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x00000188                        . = ALIGN (0x4)
+                0x00000188                        __data_end__ = .
+
+.igot.plt       0x00000188        0x0
+ .igot.plt      0x00000188        0x0 build/src/main.o
+
+.bss            0x00000188        0x8
+                0x00000188                        . = ALIGN (0x4)
+                0x00000188                        __bss_start__ = .
+ *(.bss*)
+ .bss.font      0x00000188        0x4 build/src/main.o
+                0x00000188                font
+ .bss.pdrealloc
+                0x0000018c        0x4 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ *(COMMON)
+ *(COM)
+                0x00000190                        . = ALIGN (0x4)
+                0x00000190                        __bss_end__ = .
+
+/DISCARD/
+ *(.ARM.exidx)
+OUTPUT(build/pdex.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0xbadb
+ .debug_info    0x00000000     0x5998 build/src/main.o
+ .debug_info    0x00005998     0x6143 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+.debug_abbrev   0x00000000      0x564
+ .debug_abbrev  0x00000000      0x292 build/src/main.o
+ .debug_abbrev  0x00000292      0x2d2 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+.debug_loc      0x00000000      0x443
+ .debug_loc     0x00000000      0x1d9 build/src/main.o
+ .debug_loc     0x000001d9      0x26a build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+.debug_aranges  0x00000000       0x60
+ .debug_aranges
+                0x00000000       0x28 build/src/main.o
+ .debug_aranges
+                0x00000028       0x38 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+.debug_ranges   0x00000000       0x68
+ .debug_ranges  0x00000000       0x40 build/src/main.o
+ .debug_ranges  0x00000040       0x28 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+.debug_macro    0x00000000     0x2375
+ .debug_macro   0x00000000      0x20b build/src/main.o
+ .debug_macro   0x0000020b      0xad8 build/src/main.o
+ .debug_macro   0x00000ce3       0x22 build/src/main.o
+ .debug_macro   0x00000d05       0x6e build/src/main.o
+ .debug_macro   0x00000d73       0x2a build/src/main.o
+ .debug_macro   0x00000d9d       0x94 build/src/main.o
+ .debug_macro   0x00000e31       0x3c build/src/main.o
+ .debug_macro   0x00000e6d       0x34 build/src/main.o
+ .debug_macro   0x00000ea1       0x16 build/src/main.o
+ .debug_macro   0x00000eb7       0x57 build/src/main.o
+ .debug_macro   0x00000f0e       0x9e build/src/main.o
+ .debug_macro   0x00000fac      0x369 build/src/main.o
+ .debug_macro   0x00001315      0x112 build/src/main.o
+ .debug_macro   0x00001427       0x10 build/src/main.o
+ .debug_macro   0x00001437       0x16 build/src/main.o
+ .debug_macro   0x0000144d       0x4a build/src/main.o
+ .debug_macro   0x00001497       0x34 build/src/main.o
+ .debug_macro   0x000014cb       0x10 build/src/main.o
+ .debug_macro   0x000014db       0x58 build/src/main.o
+ .debug_macro   0x00001533      0x1de build/src/main.o
+ .debug_macro   0x00001711       0x16 build/src/main.o
+ .debug_macro   0x00001727       0x16 build/src/main.o
+ .debug_macro   0x0000173d      0x170 build/src/main.o
+ .debug_macro   0x000018ad       0x16 build/src/main.o
+ .debug_macro   0x000018c3       0x3c build/src/main.o
+ .debug_macro   0x000018ff       0x16 build/src/main.o
+ .debug_macro   0x00001915       0x29 build/src/main.o
+ .debug_macro   0x0000193e      0x103 build/src/main.o
+ .debug_macro   0x00001a41       0x6a build/src/main.o
+ .debug_macro   0x00001aab      0x1df build/src/main.o
+ .debug_macro   0x00001c8a       0x2e build/src/main.o
+ .debug_macro   0x00001cb8       0x16 build/src/main.o
+ .debug_macro   0x00001cce       0x22 build/src/main.o
+ .debug_macro   0x00001cf0      0x19b build/src/main.o
+ .debug_macro   0x00001e8b      0x1c4 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x0000204f       0x8e build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x000020dd       0x51 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x0000212e       0x74 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x000021a2      0x11c build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x000022be       0x9b build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+ .debug_macro   0x00002359       0x1c build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+.debug_line     0x00000000      0x7e2
+ .debug_line    0x00000000      0x411 build/src/main.o
+ .debug_line    0x00000411      0x3d1 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+.debug_str      0x00000000     0xa5eb
+ .debug_str     0x00000000     0xa5eb build/src/main.o
+                               0xa657 (size before relaxing)
+ .debug_str     0x0000a5eb     0xa312 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+.comment        0x00000000       0x1e
+ .comment       0x00000000       0x1e build/src/main.o
+                                 0x1f (size before relaxing)
+ .comment       0x0000001e       0x1f build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+.ARM.attributes
+                0x00000000       0x34
+ .ARM.attributes
+                0x00000000       0x34 build/src/main.o
+ .ARM.attributes
+                0x00000034       0x34 build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+.debug_frame    0x00000000       0xc0
+ .debug_frame   0x00000000       0x64 build/src/main.o
+ .debug_frame   0x00000064       0x5c build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+
+Cross Reference Table
+
+Symbol                                            File
+_free_r                                           build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+_malloc_r                                         build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+_realloc_r                                        build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+dx                                                build/src/main.o
+dy                                                build/src/main.o
+eventHandler                                      build/src/main.o
+                                                  build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+eventHandlerShim                                  build//home/nate/playdate/PlaydateSDK-2.0.3/C_API/buildsupport/setup.o
+font                                              build/src/main.o
+fontpath                                          build/src/main.o
+x                                                 build/src/main.o
+y                                                 build/src/main.o
