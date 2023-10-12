@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-I/home/nate/playdate/PlaydateSDK-2.0.3/C_API,-DTARGET_EXTENSION=1,-DTARGET_PLAYDATE=1]

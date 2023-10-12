@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccAMnzzp.s 			page 1
+ARM GAS  /tmp/ccnToDYn.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
   13:src/main.c    **** 
   14:src/main.c    **** static int update(void* userdata);
   15:src/main.c    **** const char* fontpath = "/System/Fonts/Asheville-Sans-14-Bold.pft";
-ARM GAS  /tmp/ccAMnzzp.s 			page 2
+ARM GAS  /tmp/ccnToDYn.s 			page 2
 
 
   16:src/main.c    **** LCDFont* font = NULL;
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
   57              	.LCFI1:
   58              		.cfi_def_cfa_offset 32
   59              	@ src/main.c:53: 	pd->graphics->clear(kColorWhite);
-ARM GAS  /tmp/ccAMnzzp.s 			page 3
+ARM GAS  /tmp/ccnToDYn.s 			page 3
 
 
   52:src/main.c    **** 	
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
   57:src/main.c    **** 	x += dx;
  104              		.loc 1 57 2 is_stmt 1 view .LVU15
  105              	@ src/main.c:57: 	x += dx;
-ARM GAS  /tmp/ccAMnzzp.s 			page 4
+ARM GAS  /tmp/ccnToDYn.s 			page 4
 
 
  106              		.loc 1 57 4 is_stmt 0 view .LVU16
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  149              	@ src/main.c:64: 		dy = -dy;
  150              		.loc 1 64 8 is_stmt 0 view .LVU32
  151 0056 4942     		rsbs	r1, r1, #0	@ tmp161, dy.10_14
-ARM GAS  /tmp/ccAMnzzp.s 			page 5
+ARM GAS  /tmp/ccnToDYn.s 			page 5
 
 
  152              	@ src/main.c:64: 		dy = -dy;
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  196      2774206C 
  196      6F616420 
  197              		.section	.text.eventHandler,"ax",%progbits
-ARM GAS  /tmp/ccAMnzzp.s 			page 6
+ARM GAS  /tmp/ccnToDYn.s 			page 6
 
 
  198              		.align	1
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  242              	.LBB4:
  243              	@ src/main.c:28: 		font = pd->graphics->loadFont(fontpath, &err);
   28:src/main.c    **** 		
-ARM GAS  /tmp/ccAMnzzp.s 			page 7
+ARM GAS  /tmp/ccnToDYn.s 			page 7
 
 
  244              		.loc 1 28 10 view .LVU50
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  288              		.cfi_def_cfa_offset 0
  289              		.cfi_restore 4
  290              		.cfi_restore 5
-ARM GAS  /tmp/ccAMnzzp.s 			page 8
+ARM GAS  /tmp/ccnToDYn.s 			page 8
 
 
  291              		.cfi_restore 14
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  339              		.size	dy, 4
  340              	dy:
  341 0000 02000000 		.word	2
-ARM GAS  /tmp/ccAMnzzp.s 			page 9
+ARM GAS  /tmp/ccnToDYn.s 			page 9
 
 
  342              		.global	dx
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  392              		.file 11 "/home/nate/playdate/PlaydateSDK-2.0.3/C_API/pd_api/pd_api_sound.h"
  393              		.file 12 "/home/nate/playdate/PlaydateSDK-2.0.3/C_API/pd_api/pd_api_display.h"
  394              		.file 13 "/home/nate/playdate/PlaydateSDK-2.0.3/C_API/pd_api/pd_api_scoreboards.h"
-ARM GAS  /tmp/ccAMnzzp.s 			page 10
+ARM GAS  /tmp/ccnToDYn.s 			page 10
 
 
  395              		.file 14 "/home/nate/playdate/PlaydateSDK-2.0.3/C_API/pd_api.h"
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  449 0070 74000000 		.4byte	0x74
  450 0074 02       		.uleb128 0x2
  451 0075 02       		.byte	0x2
-ARM GAS  /tmp/ccAMnzzp.s 			page 11
+ARM GAS  /tmp/ccnToDYn.s 			page 11
 
 
  452 0076 07       		.byte	0x7
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  506 00d9 04       		.byte	0x4
  507 00da DE000000 		.4byte	0xde
  508 00de 02       		.uleb128 0x2
-ARM GAS  /tmp/ccAMnzzp.s 			page 12
+ARM GAS  /tmp/ccnToDYn.s 			page 12
 
 
  509 00df 01       		.byte	0x1
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  563 014b 52       		.byte	0x52
  564 014c 15       		.byte	0x15
  565 014d AF000000 		.4byte	0xaf
-ARM GAS  /tmp/ccAMnzzp.s 			page 13
+ARM GAS  /tmp/ccnToDYn.s 			page 13
 
 
  566 0151 0C       		.uleb128 0xc
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  620 01ab 29       		.byte	0x29
  621 01ac 01       		.byte	0x1
  622 01ad E2010000 		.4byte	0x1e2
-ARM GAS  /tmp/ccAMnzzp.s 			page 14
+ARM GAS  /tmp/ccnToDYn.s 			page 14
 
 
  623 01b1 10       		.uleb128 0x10
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  677 021a 05       		.byte	0x5
  678 021b 3A       		.byte	0x3a
  679 021c 03       		.byte	0x3
-ARM GAS  /tmp/ccAMnzzp.s 			page 15
+ARM GAS  /tmp/ccnToDYn.s 			page 15
 
 
  680 021d EE010000 		.4byte	0x1ee
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  734 0283 01       		.byte	0x1
  735 0284 3B000000 		.4byte	0x3b
  736 0288 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 16
+ARM GAS  /tmp/ccnToDYn.s 			page 16
 
 
  737 0289 53       		.byte	0x53
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  791 02f2 01       		.byte	0x1
  792 02f3 03       		.uleb128 0x3
  793 02f4 55A00000 		.4byte	.LASF1168
-ARM GAS  /tmp/ccAMnzzp.s 			page 17
+ARM GAS  /tmp/ccnToDYn.s 			page 17
 
 
  794 02f8 05       		.byte	0x5
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  848 0364 20       		.byte	0x20
  849 0365 05       		.byte	0x5
  850 0366 6F       		.byte	0x6f
-ARM GAS  /tmp/ccAMnzzp.s 			page 18
+ARM GAS  /tmp/ccnToDYn.s 			page 18
 
 
  851 0367 08       		.byte	0x8
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  905 03c4 23       		.byte	0x23
  906 03c5 14       		.uleb128 0x14
  907 03c6 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccAMnzzp.s 			page 19
+ARM GAS  /tmp/ccnToDYn.s 			page 19
 
 
  908 03c7 72060000 		.4byte	.LASF1180
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  962 0433 06       		.uleb128 0x6
  963 0434 04       		.byte	0x4
  964 0435 18040000 		.4byte	0x418
-ARM GAS  /tmp/ccAMnzzp.s 			page 20
+ARM GAS  /tmp/ccnToDYn.s 			page 20
 
 
  965 0439 13       		.uleb128 0x13
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1019 04ae B8040000 		.4byte	0x4b8
  1020 04b2 0A       		.uleb128 0xa
  1021 04b3 FA030000 		.4byte	0x3fa
-ARM GAS  /tmp/ccAMnzzp.s 			page 21
+ARM GAS  /tmp/ccnToDYn.s 			page 21
 
 
  1022 04b7 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1076 0514 23       		.byte	0x23
  1077 0515 10       		.uleb128 0x10
  1078 0516 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccAMnzzp.s 			page 22
+ARM GAS  /tmp/ccnToDYn.s 			page 22
 
 
  1079 0517 8AA20000 		.4byte	.LASF1190
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1133 0571 20170000 		.4byte	.LASF1196
  1134 0575 05       		.byte	0x5
  1135 0576 8A       		.byte	0x8a
-ARM GAS  /tmp/ccAMnzzp.s 			page 23
+ARM GAS  /tmp/ccnToDYn.s 			page 23
 
 
  1136 0577 09       		.byte	0x9
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1190 05d1 09       		.byte	0x9
  1191 05d2 D8090000 		.4byte	0x9d8
  1192 05d6 02       		.byte	0x2
-ARM GAS  /tmp/ccAMnzzp.s 			page 24
+ARM GAS  /tmp/ccnToDYn.s 			page 24
 
 
  1193 05d7 23       		.byte	0x23
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1247 0631 23       		.byte	0x23
  1248 0632 5C       		.uleb128 0x5c
  1249 0633 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccAMnzzp.s 			page 25
+ARM GAS  /tmp/ccnToDYn.s 			page 25
 
 
  1250 0634 C05D0000 		.4byte	.LASF1209
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1304 068e 13540000 		.4byte	.LASF1215
  1305 0692 05       		.byte	0x5
  1306 0693 A0       		.byte	0xa0
-ARM GAS  /tmp/ccAMnzzp.s 			page 26
+ARM GAS  /tmp/ccnToDYn.s 			page 26
 
 
  1307 0694 0F       		.byte	0xf
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1361 06f2 0D       		.byte	0xd
  1362 06f3 1D0C0000 		.4byte	0xc1d
  1363 06f7 03       		.byte	0x3
-ARM GAS  /tmp/ccAMnzzp.s 			page 27
+ARM GAS  /tmp/ccnToDYn.s 			page 27
 
 
  1364 06f8 23       		.byte	0x23
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1418 0758 23       		.byte	0x23
  1419 0759 A801     		.uleb128 0xa8
  1420 075b 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccAMnzzp.s 			page 28
+ARM GAS  /tmp/ccnToDYn.s 			page 28
 
 
  1421 075c FA200000 		.4byte	.LASF1228
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1475 07bc C4080000 		.4byte	.LASF1234
  1476 07c0 05       		.byte	0x5
  1477 07c1 BD       		.byte	0xbd
-ARM GAS  /tmp/ccAMnzzp.s 			page 29
+ARM GAS  /tmp/ccnToDYn.s 			page 29
 
 
  1478 07c2 09       		.byte	0x9
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1532 0822 08       		.byte	0x8
  1533 0823 BD0D0000 		.4byte	0xdbd
  1534 0827 03       		.byte	0x3
-ARM GAS  /tmp/ccAMnzzp.s 			page 30
+ARM GAS  /tmp/ccnToDYn.s 			page 30
 
 
  1535 0828 23       		.byte	0x23
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1589 088c 01       		.byte	0x1
  1590 088d 97080000 		.4byte	0x897
  1591 0891 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 31
+ARM GAS  /tmp/ccnToDYn.s 			page 31
 
 
  1592 0892 2D040000 		.4byte	0x42d
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1646 0904 00       		.byte	0
  1647 0905 06       		.uleb128 0x6
  1648 0906 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 32
+ARM GAS  /tmp/ccnToDYn.s 			page 32
 
 
  1649 0907 05030000 		.4byte	0x305
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1703 0982 06       		.uleb128 0x6
  1704 0983 04       		.byte	0x4
  1705 0984 5D090000 		.4byte	0x95d
-ARM GAS  /tmp/ccAMnzzp.s 			page 33
+ARM GAS  /tmp/ccnToDYn.s 			page 33
 
 
  1706 0988 09       		.uleb128 0x9
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1760 0a03 9B040000 		.4byte	0x49b
  1761 0a07 0A       		.uleb128 0xa
  1762 0a08 AE020000 		.4byte	0x2ae
-ARM GAS  /tmp/ccAMnzzp.s 			page 34
+ARM GAS  /tmp/ccnToDYn.s 			page 34
 
 
  1763 0a0c 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1817 0a87 0A       		.uleb128 0xa
  1818 0a88 A8000000 		.4byte	0xa8
  1819 0a8c 00       		.byte	0
-ARM GAS  /tmp/ccAMnzzp.s 			page 35
+ARM GAS  /tmp/ccnToDYn.s 			page 35
 
 
  1820 0a8d 06       		.uleb128 0x6
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1874 0b02 EA0A0000 		.4byte	0xaea
  1875 0b06 09       		.uleb128 0x9
  1876 0b07 01       		.byte	0x1
-ARM GAS  /tmp/ccAMnzzp.s 			page 36
+ARM GAS  /tmp/ccnToDYn.s 			page 36
 
 
  1877 0b08 2B0B0000 		.4byte	0xb2b
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1931 0b80 980B0000 		.4byte	0xb98
  1932 0b84 980B0000 		.4byte	0xb98
  1933 0b88 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 37
+ARM GAS  /tmp/ccnToDYn.s 			page 37
 
 
  1934 0b89 A8000000 		.4byte	0xa8
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  1988 0c01 00       		.byte	0
  1989 0c02 06       		.uleb128 0x6
  1990 0c03 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 38
+ARM GAS  /tmp/ccnToDYn.s 			page 38
 
 
  1991 0c04 ED0B0000 		.4byte	0xbed
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2045 0c7f 0A       		.uleb128 0xa
  2046 0c80 630C0000 		.4byte	0xc63
  2047 0c84 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 39
+ARM GAS  /tmp/ccnToDYn.s 			page 39
 
 
  2048 0c85 39010000 		.4byte	0x139
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2102 0cfa D70C0000 		.4byte	0xcd7
  2103 0cfe 13       		.uleb128 0x13
  2104 0cff 01       		.byte	0x1
-ARM GAS  /tmp/ccAMnzzp.s 			page 40
+ARM GAS  /tmp/ccnToDYn.s 			page 40
 
 
  2105 0d00 A8000000 		.4byte	0xa8
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2159 0d7e 0A       		.uleb128 0xa
  2160 0d7f A8000000 		.4byte	0xa8
  2161 0d83 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 41
+ARM GAS  /tmp/ccnToDYn.s 			page 41
 
 
  2162 0d84 A8000000 		.4byte	0xa8
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2216 0dfc 07       		.byte	0x7
  2217 0dfd 01       		.byte	0x1
  2218 0dfe 3B000000 		.4byte	0x3b
-ARM GAS  /tmp/ccAMnzzp.s 			page 42
+ARM GAS  /tmp/ccnToDYn.s 			page 42
 
 
  2219 0e02 06       		.byte	0x6
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2273 0e68 F95F0000 		.4byte	.LASF1255
  2274 0e6c 08       		.byte	0x8
  2275 0e6d 06       		.byte	0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 43
+ARM GAS  /tmp/ccnToDYn.s 			page 43
 
 
  2276 0e6e 21       		.byte	0x21
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2330 0ecb 02       		.byte	0x2
  2331 0ecc 23       		.byte	0x23
  2332 0ecd 06       		.uleb128 0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 44
+ARM GAS  /tmp/ccnToDYn.s 			page 44
 
 
  2333 0ece 0D       		.uleb128 0xd
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2387 0f35 CE000000 		.4byte	0xce
  2388 0f39 00       		.byte	0
  2389 0f3a 03       		.uleb128 0x3
-ARM GAS  /tmp/ccAMnzzp.s 			page 45
+ARM GAS  /tmp/ccnToDYn.s 			page 45
 
 
  2390 0f3b 957C0000 		.4byte	.LASF1268
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2444 0f9b 0D       		.uleb128 0xd
  2445 0f9c B13F0000 		.4byte	.LASF1274
  2446 0fa0 06       		.byte	0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 46
+ARM GAS  /tmp/ccnToDYn.s 			page 46
 
 
  2447 0fa1 3F       		.byte	0x3f
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2501 0ffb 46       		.byte	0x46
  2502 0ffc 09       		.byte	0x9
  2503 0ffd 94120000 		.4byte	0x1294
-ARM GAS  /tmp/ccAMnzzp.s 			page 47
+ARM GAS  /tmp/ccnToDYn.s 			page 47
 
 
  2504 1001 02       		.byte	0x2
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2558 105b 02       		.byte	0x2
  2559 105c 23       		.byte	0x23
  2560 105d 40       		.uleb128 0x40
-ARM GAS  /tmp/ccAMnzzp.s 			page 48
+ARM GAS  /tmp/ccnToDYn.s 			page 48
 
 
  2561 105e 0D       		.uleb128 0xd
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2615 10b8 0D       		.uleb128 0xd
  2616 10b9 EF6D0000 		.4byte	.LASF1293
  2617 10bd 06       		.byte	0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 49
+ARM GAS  /tmp/ccnToDYn.s 			page 49
 
 
  2618 10be 56       		.byte	0x56
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2672 1118 5C       		.byte	0x5c
  2673 1119 09       		.byte	0x9
  2674 111a F2130000 		.4byte	0x13f2
-ARM GAS  /tmp/ccAMnzzp.s 			page 50
+ARM GAS  /tmp/ccnToDYn.s 			page 50
 
 
  2675 111e 02       		.byte	0x2
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2729 117b 03       		.byte	0x3
  2730 117c 23       		.byte	0x23
  2731 117d 8C01     		.uleb128 0x8c
-ARM GAS  /tmp/ccAMnzzp.s 			page 51
+ARM GAS  /tmp/ccnToDYn.s 			page 51
 
 
  2732 117f 0D       		.uleb128 0xd
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2786 11e6 F6110000 		.4byte	0x11f6
  2787 11ea 0A       		.uleb128 0xa
  2788 11eb F6110000 		.4byte	0x11f6
-ARM GAS  /tmp/ccAMnzzp.s 			page 52
+ARM GAS  /tmp/ccnToDYn.s 			page 52
 
 
  2789 11ef 0A       		.uleb128 0xa
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2843 125b 04       		.byte	0x4
  2844 125c 1E0F0000 		.4byte	0xf1e
  2845 1260 06       		.uleb128 0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 53
+ARM GAS  /tmp/ccnToDYn.s 			page 53
 
 
  2846 1261 04       		.byte	0x4
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2900 12d0 A8000000 		.4byte	0xa8
  2901 12d4 DE120000 		.4byte	0x12de
  2902 12d8 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 54
+ARM GAS  /tmp/ccnToDYn.s 			page 54
 
 
  2903 12d9 A8000000 		.4byte	0xa8
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  2957 1354 CE000000 		.4byte	0xce
  2958 1358 00       		.byte	0
  2959 1359 06       		.uleb128 0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 55
+ARM GAS  /tmp/ccnToDYn.s 			page 55
 
 
  2960 135a 04       		.byte	0x4
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3014 13cc 01       		.byte	0x1
  3015 13cd CE000000 		.4byte	0xce
  3016 13d1 DB130000 		.4byte	0x13db
-ARM GAS  /tmp/ccAMnzzp.s 			page 56
+ARM GAS  /tmp/ccnToDYn.s 			page 56
 
 
  3017 13d5 0A       		.uleb128 0xa
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3071 1444 6C710000 		.4byte	.LASF1311
  3072 1448 07       		.byte	0x7
  3073 1449 0F       		.byte	0xf
-ARM GAS  /tmp/ccAMnzzp.s 			page 57
+ARM GAS  /tmp/ccnToDYn.s 			page 57
 
 
  3074 144a 0F       		.byte	0xf
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3128 14b6 14       		.byte	0x14
  3129 14b7 25       		.byte	0x25
  3130 14b8 8F140000 		.4byte	0x148f
-ARM GAS  /tmp/ccAMnzzp.s 			page 58
+ARM GAS  /tmp/ccnToDYn.s 			page 58
 
 
  3131 14bc 0C       		.uleb128 0xc
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3185 151f 10       		.uleb128 0x10
  3186 1520 F6260000 		.4byte	.LASF1325
  3187 1524 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 59
+ARM GAS  /tmp/ccnToDYn.s 			page 59
 
 
  3188 1525 10       		.uleb128 0x10
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3242 1585 92230000 		.4byte	.LASF1333
  3243 1589 07       		.byte	0x7
  3244 158a 2E       		.byte	0x2e
-ARM GAS  /tmp/ccAMnzzp.s 			page 60
+ARM GAS  /tmp/ccnToDYn.s 			page 60
 
 
  3245 158b 0C       		.byte	0xc
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3299 15e9 02       		.byte	0x2
  3300 15ea 23       		.byte	0x23
  3301 15eb 08       		.uleb128 0x8
-ARM GAS  /tmp/ccAMnzzp.s 			page 61
+ARM GAS  /tmp/ccnToDYn.s 			page 61
 
 
  3302 15ec 0D       		.uleb128 0xd
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3356 1646 0D       		.uleb128 0xd
  3357 1647 BA0E0000 		.4byte	.LASF1345
  3358 164b 07       		.byte	0x7
-ARM GAS  /tmp/ccAMnzzp.s 			page 62
+ARM GAS  /tmp/ccnToDYn.s 			page 62
 
 
  3359 164c 48       		.byte	0x48
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3413 16a6 4F       		.byte	0x4f
  3414 16a7 0F       		.byte	0xf
  3415 16a8 B1180000 		.4byte	0x18b1
-ARM GAS  /tmp/ccAMnzzp.s 			page 63
+ARM GAS  /tmp/ccnToDYn.s 			page 63
 
 
  3416 16ac 02       		.byte	0x2
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3470 1706 02       		.byte	0x2
  3471 1707 23       		.byte	0x23
  3472 1708 54       		.uleb128 0x54
-ARM GAS  /tmp/ccAMnzzp.s 			page 64
+ARM GAS  /tmp/ccnToDYn.s 			page 64
 
 
  3473 1709 0D       		.uleb128 0xd
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3527 1763 0D       		.uleb128 0xd
  3528 1764 F8430000 		.4byte	.LASF1364
  3529 1768 07       		.byte	0x7
-ARM GAS  /tmp/ccAMnzzp.s 			page 65
+ARM GAS  /tmp/ccnToDYn.s 			page 65
 
 
  3530 1769 60       		.byte	0x60
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3584 17cf 0A       		.uleb128 0xa
  3585 17d0 EA000000 		.4byte	0xea
  3586 17d4 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 66
+ARM GAS  /tmp/ccnToDYn.s 			page 66
 
 
  3587 17d5 E9170000 		.4byte	0x17e9
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3641 184d 00       		.byte	0
  3642 184e 06       		.uleb128 0x6
  3643 184f 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 67
+ARM GAS  /tmp/ccnToDYn.s 			page 67
 
 
  3644 1850 3E180000 		.4byte	0x183e
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3698 18c8 04       		.byte	0x4
  3699 18c9 7D140000 		.4byte	0x147d
  3700 18cd 06       		.uleb128 0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 68
+ARM GAS  /tmp/ccnToDYn.s 			page 68
 
 
  3701 18ce 04       		.byte	0x4
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3755 1940 13       		.uleb128 0x13
  3756 1941 01       		.byte	0x1
  3757 1942 95180000 		.4byte	0x1895
-ARM GAS  /tmp/ccAMnzzp.s 			page 69
+ARM GAS  /tmp/ccnToDYn.s 			page 69
 
 
  3758 1946 50190000 		.4byte	0x1950
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3812 19bb 0A       		.uleb128 0xa
  3813 19bc EA000000 		.4byte	0xea
  3814 19c0 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 70
+ARM GAS  /tmp/ccnToDYn.s 			page 70
 
 
  3815 19c1 A8000000 		.4byte	0xa8
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3869 1a2a 08       		.byte	0x8
  3870 1a2b 23       		.byte	0x23
  3871 1a2c 07       		.byte	0x7
-ARM GAS  /tmp/ccAMnzzp.s 			page 71
+ARM GAS  /tmp/ccnToDYn.s 			page 71
 
 
  3872 1a2d A8000000 		.4byte	0xa8
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3926 1a90 29       		.byte	0x29
  3927 1a91 03       		.byte	0x3
  3928 1a92 621A0000 		.4byte	0x1a62
-ARM GAS  /tmp/ccAMnzzp.s 			page 72
+ARM GAS  /tmp/ccnToDYn.s 			page 72
 
 
  3929 1a96 03       		.uleb128 0x3
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  3983 1af3 D01B0000 		.4byte	0x1bd0
  3984 1af7 02       		.byte	0x2
  3985 1af8 23       		.byte	0x23
-ARM GAS  /tmp/ccAMnzzp.s 			page 73
+ARM GAS  /tmp/ccnToDYn.s 			page 73
 
 
  3986 1af9 10       		.uleb128 0x10
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4040 1b56 0A       		.uleb128 0xa
  4041 1b57 A8000000 		.4byte	0xa8
  4042 1b5b 00       		.byte	0
-ARM GAS  /tmp/ccAMnzzp.s 			page 74
+ARM GAS  /tmp/ccnToDYn.s 			page 74
 
 
  4043 1b5c 06       		.uleb128 0x6
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4097 1bd1 04       		.byte	0x4
  4098 1bd2 BB1B0000 		.4byte	0x1bbb
  4099 1bd6 09       		.uleb128 0x9
-ARM GAS  /tmp/ccAMnzzp.s 			page 75
+ARM GAS  /tmp/ccnToDYn.s 			page 75
 
 
  4100 1bd7 01       		.byte	0x1
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4154 1c40 541C0000 		.4byte	0x1c54
  4155 1c44 0A       		.uleb128 0xa
  4156 1c45 CE000000 		.4byte	0xce
-ARM GAS  /tmp/ccAMnzzp.s 			page 76
+ARM GAS  /tmp/ccnToDYn.s 			page 76
 
 
  4157 1c49 0A       		.uleb128 0xa
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4211 1cb2 04       		.uleb128 0x4
  4212 1cb3 1A       		.uleb128 0x1a
  4213 1cb4 CB490000 		.4byte	.LASF1398
-ARM GAS  /tmp/ccAMnzzp.s 			page 77
+ARM GAS  /tmp/ccnToDYn.s 			page 77
 
 
  4214 1cb8 08       		.byte	0x8
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4268 1d09 0C       		.uleb128 0xc
  4269 1d0a 0D       		.uleb128 0xd
  4270 1d0b F6280000 		.4byte	.LASF1403
-ARM GAS  /tmp/ccAMnzzp.s 			page 78
+ARM GAS  /tmp/ccnToDYn.s 			page 78
 
 
  4271 1d0f 08       		.byte	0x8
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4325 1d69 08       		.byte	0x8
  4326 1d6a 91       		.byte	0x91
  4327 1d6b 09       		.byte	0x9
-ARM GAS  /tmp/ccAMnzzp.s 			page 79
+ARM GAS  /tmp/ccnToDYn.s 			page 79
 
 
  4328 1d6c C81D0000 		.4byte	0x1dc8
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4382 1dc9 04       		.byte	0x4
  4383 1dca B61D0000 		.4byte	0x1db6
  4384 1dce 09       		.uleb128 0x9
-ARM GAS  /tmp/ccAMnzzp.s 			page 80
+ARM GAS  /tmp/ccnToDYn.s 			page 80
 
 
  4385 1dcf 01       		.byte	0x1
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4439 1e3e 9D       		.byte	0x9d
  4440 1e3f 09       		.byte	0x9
  4441 1e40 8C1E0000 		.4byte	0x1e8c
-ARM GAS  /tmp/ccAMnzzp.s 			page 81
+ARM GAS  /tmp/ccnToDYn.s 			page 81
 
 
  4442 1e44 02       		.byte	0x2
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4496 1ead 04       		.byte	0x4
  4497 1eae A21A0000 		.4byte	0x1aa2
  4498 1eb2 06       		.uleb128 0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 82
+ARM GAS  /tmp/ccnToDYn.s 			page 82
 
 
  4499 1eb3 04       		.byte	0x4
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4553 1f1c 18       		.byte	0x18
  4554 1f1d 09       		.byte	0x9
  4555 1f1e 9B1F0000 		.4byte	0x1f9b
-ARM GAS  /tmp/ccAMnzzp.s 			page 83
+ARM GAS  /tmp/ccnToDYn.s 			page 83
 
 
  4556 1f22 0D       		.uleb128 0xd
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4610 1f7c 0D       		.uleb128 0xd
  4611 1f7d C8320000 		.4byte	.LASF1430
  4612 1f81 09       		.byte	0x9
-ARM GAS  /tmp/ccAMnzzp.s 			page 84
+ARM GAS  /tmp/ccnToDYn.s 			page 84
 
 
  4613 1f82 20       		.byte	0x20
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4667 1fdf 23       		.byte	0x23
  4668 1fe0 08       		.uleb128 0x8
  4669 1fe1 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccAMnzzp.s 			page 85
+ARM GAS  /tmp/ccnToDYn.s 			page 85
 
 
  4670 1fe2 D2040000 		.4byte	.LASF1437
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4724 203c D16A0000 		.4byte	.LASF1442
  4725 2040 09       		.byte	0x9
  4726 2041 39       		.byte	0x39
-ARM GAS  /tmp/ccAMnzzp.s 			page 86
+ARM GAS  /tmp/ccnToDYn.s 			page 86
 
 
  4727 2042 09       		.byte	0x9
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4781 20a8 06       		.uleb128 0x6
  4782 20a9 04       		.byte	0x4
  4783 20aa AE200000 		.4byte	0x20ae
-ARM GAS  /tmp/ccAMnzzp.s 			page 87
+ARM GAS  /tmp/ccnToDYn.s 			page 87
 
 
  4784 20ae 09       		.uleb128 0x9
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4838 2126 0A       		.uleb128 0xa
  4839 2127 EA000000 		.4byte	0xea
  4840 212b 00       		.byte	0
-ARM GAS  /tmp/ccAMnzzp.s 			page 88
+ARM GAS  /tmp/ccnToDYn.s 			page 88
 
 
  4841 212c 06       		.uleb128 0x6
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4895 21a4 04       		.byte	0x4
  4896 21a5 89210000 		.4byte	0x2189
  4897 21a9 13       		.uleb128 0x13
-ARM GAS  /tmp/ccAMnzzp.s 			page 89
+ARM GAS  /tmp/ccnToDYn.s 			page 89
 
 
  4898 21aa 01       		.byte	0x1
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  4952 2211 00       		.uleb128 0
  4953 2212 0E       		.uleb128 0xe
  4954 2213 7900     		.ascii	"y\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 90
+ARM GAS  /tmp/ccnToDYn.s 			page 90
 
 
  4955 2215 0A       		.byte	0xa
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5009 226b 23       		.byte	0x23
  5010 226c 04       		.uleb128 0x4
  5011 226d 00       		.byte	0
-ARM GAS  /tmp/ccAMnzzp.s 			page 91
+ARM GAS  /tmp/ccnToDYn.s 			page 91
 
 
  5012 226e 03       		.uleb128 0x3
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5066 22ca 0D       		.byte	0xd
  5067 22cb C7180000 		.4byte	0x18c7
  5068 22cf 02       		.byte	0x2
-ARM GAS  /tmp/ccAMnzzp.s 			page 92
+ARM GAS  /tmp/ccnToDYn.s 			page 92
 
 
  5069 22d0 23       		.byte	0x23
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5123 2329 23       		.byte	0x23
  5124 232a 18       		.uleb128 0x18
  5125 232b 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccAMnzzp.s 			page 93
+ARM GAS  /tmp/ccnToDYn.s 			page 93
 
 
  5126 232c A2140000 		.4byte	.LASF1463
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5180 2389 9B040000 		.4byte	0x49b
  5181 238d 02       		.byte	0x2
  5182 238e 23       		.byte	0x23
-ARM GAS  /tmp/ccAMnzzp.s 			page 94
+ARM GAS  /tmp/ccnToDYn.s 			page 94
 
 
  5183 238f 04       		.uleb128 0x4
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5237 23f2 4A       		.byte	0x4a
  5238 23f3 25       		.byte	0x25
  5239 23f4 F8230000 		.4byte	0x23f8
-ARM GAS  /tmp/ccAMnzzp.s 			page 95
+ARM GAS  /tmp/ccnToDYn.s 			page 95
 
 
  5240 23f8 13       		.uleb128 0x13
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5294 245b 0A       		.byte	0xa
  5295 245c 53       		.byte	0x53
  5296 245d 0F       		.byte	0xf
-ARM GAS  /tmp/ccAMnzzp.s 			page 96
+ARM GAS  /tmp/ccnToDYn.s 			page 96
 
 
  5297 245e E8270000 		.4byte	0x27e8
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5351 24b8 D0000000 		.4byte	0xd0
  5352 24bc 02       		.byte	0x2
  5353 24bd 23       		.byte	0x23
-ARM GAS  /tmp/ccAMnzzp.s 			page 97
+ARM GAS  /tmp/ccnToDYn.s 			page 97
 
 
  5354 24be 28       		.uleb128 0x28
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5408 2518 40       		.uleb128 0x40
  5409 2519 0D       		.uleb128 0xd
  5410 251a 64740000 		.4byte	.LASF1490
-ARM GAS  /tmp/ccAMnzzp.s 			page 98
+ARM GAS  /tmp/ccnToDYn.s 			page 98
 
 
  5411 251e 0A       		.byte	0xa
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5465 2578 0A       		.byte	0xa
  5466 2579 6A       		.byte	0x6a
  5467 257a 12       		.byte	0x12
-ARM GAS  /tmp/ccAMnzzp.s 			page 99
+ARM GAS  /tmp/ccnToDYn.s 			page 99
 
 
  5468 257b 07290000 		.4byte	0x2907
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5522 25d5 68290000 		.4byte	0x2968
  5523 25d9 02       		.byte	0x2
  5524 25da 23       		.byte	0x23
-ARM GAS  /tmp/ccAMnzzp.s 			page 100
+ARM GAS  /tmp/ccnToDYn.s 			page 100
 
 
  5525 25db 74       		.uleb128 0x74
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5579 2638 8C01     		.uleb128 0x8c
  5580 263a 0D       		.uleb128 0xd
  5581 263b DE3E0000 		.4byte	.LASF1505
-ARM GAS  /tmp/ccAMnzzp.s 			page 101
+ARM GAS  /tmp/ccnToDYn.s 			page 101
 
 
  5582 263f 0A       		.byte	0xa
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5636 269f 0A       		.byte	0xa
  5637 26a0 83       		.byte	0x83
  5638 26a1 09       		.byte	0x9
-ARM GAS  /tmp/ccAMnzzp.s 			page 102
+ARM GAS  /tmp/ccnToDYn.s 			page 102
 
 
  5639 26a2 012A0000 		.4byte	0x2a01
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5693 2702 532A0000 		.4byte	0x2a53
  5694 2706 03       		.byte	0x3
  5695 2707 23       		.byte	0x23
-ARM GAS  /tmp/ccAMnzzp.s 			page 103
+ARM GAS  /tmp/ccnToDYn.s 			page 103
 
 
  5696 2708 C001     		.uleb128 0xc0
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5750 2768 D801     		.uleb128 0xd8
  5751 276a 0D       		.uleb128 0xd
  5752 276b 00560000 		.4byte	.LASF1524
-ARM GAS  /tmp/ccAMnzzp.s 			page 104
+ARM GAS  /tmp/ccnToDYn.s 			page 104
 
 
  5753 276f 0A       		.byte	0xa
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5807 27cc 0D240000 		.4byte	0x240d
  5808 27d0 09       		.uleb128 0x9
  5809 27d1 01       		.byte	0x1
-ARM GAS  /tmp/ccAMnzzp.s 			page 105
+ARM GAS  /tmp/ccnToDYn.s 			page 105
 
 
  5810 27d2 DC270000 		.4byte	0x27dc
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5864 2847 00       		.byte	0
  5865 2848 06       		.uleb128 0x6
  5866 2849 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 106
+ARM GAS  /tmp/ccnToDYn.s 			page 106
 
 
  5867 284a 38280000 		.4byte	0x2838
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5921 28c2 00       		.byte	0
  5922 28c3 06       		.uleb128 0x6
  5923 28c4 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 107
+ARM GAS  /tmp/ccnToDYn.s 			page 107
 
 
  5924 28c5 B3280000 		.4byte	0x28b3
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  5978 2937 24290000 		.4byte	0x2924
  5979 293b 09       		.uleb128 0x9
  5980 293c 01       		.byte	0x1
-ARM GAS  /tmp/ccAMnzzp.s 			page 108
+ARM GAS  /tmp/ccnToDYn.s 			page 108
 
 
  5981 293d 51290000 		.4byte	0x2951
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6035 29b2 01       		.byte	0x1
  6036 29b3 C2290000 		.4byte	0x29c2
  6037 29b7 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 109
+ARM GAS  /tmp/ccnToDYn.s 			page 109
 
 
  6038 29b8 C7180000 		.4byte	0x18c7
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6092 2a2a 4D2A0000 		.4byte	0x2a4d
  6093 2a2e 0A       		.uleb128 0xa
  6094 2a2f C7180000 		.4byte	0x18c7
-ARM GAS  /tmp/ccAMnzzp.s 			page 110
+ARM GAS  /tmp/ccnToDYn.s 			page 110
 
 
  6095 2a33 0A       		.uleb128 0xa
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6149 2aae 9B040000 		.4byte	0x49b
  6150 2ab2 0A       		.uleb128 0xa
  6151 2ab3 9B040000 		.4byte	0x49b
-ARM GAS  /tmp/ccAMnzzp.s 			page 111
+ARM GAS  /tmp/ccnToDYn.s 			page 111
 
 
  6152 2ab7 0A       		.uleb128 0xa
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6206 2b2c 06       		.uleb128 0x6
  6207 2b2d 04       		.byte	0x4
  6208 2b2e 1B2B0000 		.4byte	0x2b1b
-ARM GAS  /tmp/ccAMnzzp.s 			page 112
+ARM GAS  /tmp/ccnToDYn.s 			page 112
 
 
  6209 2b32 13       		.uleb128 0x13
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6263 2b9e 03       		.byte	0x3
  6264 2b9f 642B0000 		.4byte	0x2b64
  6265 2ba3 03       		.uleb128 0x3
-ARM GAS  /tmp/ccAMnzzp.s 			page 113
+ARM GAS  /tmp/ccnToDYn.s 			page 113
 
 
  6266 2ba4 82160000 		.4byte	.LASF1536
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6320 2c0a 0D       		.uleb128 0xd
  6321 2c0b FD380000 		.4byte	.LASF1542
  6322 2c0f 0B       		.byte	0xb
-ARM GAS  /tmp/ccAMnzzp.s 			page 114
+ARM GAS  /tmp/ccnToDYn.s 			page 114
 
 
  6323 2c10 36       		.byte	0x36
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6377 2c7c 09       		.uleb128 0x9
  6378 2c7d 01       		.byte	0x1
  6379 2c7e 8D2C0000 		.4byte	0x2c8d
-ARM GAS  /tmp/ccAMnzzp.s 			page 115
+ARM GAS  /tmp/ccnToDYn.s 			page 115
 
 
  6380 2c82 0A       		.uleb128 0xa
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6434 2ce5 0D       		.uleb128 0xd
  6435 2ce6 36240000 		.4byte	.LASF1548
  6436 2cea 0B       		.byte	0xb
-ARM GAS  /tmp/ccAMnzzp.s 			page 116
+ARM GAS  /tmp/ccnToDYn.s 			page 116
 
 
  6437 2ceb 41       		.byte	0x41
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6491 2d45 47       		.byte	0x47
  6492 2d46 09       		.byte	0x9
  6493 2d47 C12E0000 		.4byte	0x2ec1
-ARM GAS  /tmp/ccAMnzzp.s 			page 117
+ARM GAS  /tmp/ccnToDYn.s 			page 117
 
 
  6494 2d4b 02       		.byte	0x2
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6548 2da5 02       		.byte	0x2
  6549 2da6 23       		.byte	0x23
  6550 2da7 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccAMnzzp.s 			page 118
+ARM GAS  /tmp/ccnToDYn.s 			page 118
 
 
  6551 2da8 0D       		.uleb128 0xd
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6605 2e02 00       		.byte	0
  6606 2e03 08       		.uleb128 0x8
  6607 2e04 AB2C0000 		.4byte	0x2cab
-ARM GAS  /tmp/ccAMnzzp.s 			page 119
+ARM GAS  /tmp/ccnToDYn.s 			page 119
 
 
  6608 2e08 14       		.uleb128 0x14
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6662 2e7a 01       		.byte	0x1
  6663 2e7b A8000000 		.4byte	0xa8
  6664 2e7f 892E0000 		.4byte	0x2e89
-ARM GAS  /tmp/ccAMnzzp.s 			page 120
+ARM GAS  /tmp/ccnToDYn.s 			page 120
 
 
  6665 2e83 0A       		.uleb128 0xa
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6719 2ef5 01       		.byte	0x1
  6720 2ef6 052F0000 		.4byte	0x2f05
  6721 2efa 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 121
+ARM GAS  /tmp/ccnToDYn.s 			page 121
 
 
  6722 2efb 0E2E0000 		.4byte	0x2e0e
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6776 2f73 8E8A0000 		.4byte	.LASF1562
  6777 2f77 0B       		.byte	0xb
  6778 2f78 57       		.byte	0x57
-ARM GAS  /tmp/ccAMnzzp.s 			page 122
+ARM GAS  /tmp/ccnToDYn.s 			page 122
 
 
  6779 2f79 1C       		.byte	0x1c
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6833 2fdc 02       		.byte	0x2
  6834 2fdd 23       		.byte	0x23
  6835 2fde 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccAMnzzp.s 			page 123
+ARM GAS  /tmp/ccnToDYn.s 			page 123
 
 
  6836 2fdf 0D       		.uleb128 0xd
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6890 3045 2E300000 		.4byte	0x302e
  6891 3049 13       		.uleb128 0x13
  6892 304a 01       		.byte	0x1
-ARM GAS  /tmp/ccAMnzzp.s 			page 124
+ARM GAS  /tmp/ccnToDYn.s 			page 124
 
 
  6893 304b 22300000 		.4byte	0x3022
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  6947 30c3 04       		.byte	0x4
  6948 30c4 B6300000 		.4byte	0x30b6
  6949 30c8 13       		.uleb128 0x13
-ARM GAS  /tmp/ccAMnzzp.s 			page 125
+ARM GAS  /tmp/ccnToDYn.s 			page 125
 
 
  6950 30c9 01       		.byte	0x1
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7004 312c 0B       		.byte	0xb
  7005 312d 6B       		.byte	0x6b
  7006 312e 08       		.byte	0x8
-ARM GAS  /tmp/ccAMnzzp.s 			page 126
+ARM GAS  /tmp/ccnToDYn.s 			page 126
 
 
  7007 312f 5B320000 		.4byte	0x325b
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7061 3189 C0320000 		.4byte	0x32c0
  7062 318d 02       		.byte	0x2
  7063 318e 23       		.byte	0x23
-ARM GAS  /tmp/ccAMnzzp.s 			page 127
+ARM GAS  /tmp/ccnToDYn.s 			page 127
 
 
  7064 318f 28       		.uleb128 0x28
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7118 31e9 40       		.uleb128 0x40
  7119 31ea 00       		.byte	0
  7120 31eb 08       		.uleb128 0x8
-ARM GAS  /tmp/ccAMnzzp.s 			page 128
+ARM GAS  /tmp/ccnToDYn.s 			page 128
 
 
  7121 31ec DE300000 		.4byte	0x30de
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7175 3261 09       		.uleb128 0x9
  7176 3262 01       		.byte	0x1
  7177 3263 77320000 		.4byte	0x3277
-ARM GAS  /tmp/ccAMnzzp.s 			page 129
+ARM GAS  /tmp/ccnToDYn.s 			page 129
 
 
  7178 3267 0A       		.uleb128 0xa
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7232 32dc 06       		.uleb128 0x6
  7233 32dd 04       		.byte	0x4
  7234 32de C6320000 		.4byte	0x32c6
-ARM GAS  /tmp/ccAMnzzp.s 			page 130
+ARM GAS  /tmp/ccnToDYn.s 			page 130
 
 
  7235 32e2 09       		.uleb128 0x9
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7289 3351 CE000000 		.4byte	0xce
  7290 3355 0A       		.uleb128 0xa
  7291 3356 8F040000 		.4byte	0x48f
-ARM GAS  /tmp/ccAMnzzp.s 			page 131
+ARM GAS  /tmp/ccnToDYn.s 			page 131
 
 
  7292 335a 0A       		.uleb128 0xa
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7346 33cc 14       		.byte	0x14
  7347 33cd 0B       		.byte	0xb
  7348 33ce 88       		.byte	0x88
-ARM GAS  /tmp/ccAMnzzp.s 			page 132
+ARM GAS  /tmp/ccnToDYn.s 			page 132
 
 
  7349 33cf 08       		.byte	0x8
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7403 342f 0A       		.uleb128 0xa
  7404 3430 34330000 		.4byte	0x3334
  7405 3434 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 133
+ARM GAS  /tmp/ccnToDYn.s 			page 133
 
 
  7406 3435 60330000 		.4byte	0x3360
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7460 34a7 00       		.byte	0
  7461 34a8 10       		.uleb128 0x10
  7462 34a9 3B770000 		.4byte	.LASF1588
-ARM GAS  /tmp/ccAMnzzp.s 			page 134
+ARM GAS  /tmp/ccnToDYn.s 			page 134
 
 
  7463 34ad 01       		.byte	0x1
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7517 3513 A4       		.byte	0xa4
  7518 3514 09       		.byte	0x9
  7519 3515 EF350000 		.4byte	0x35ef
-ARM GAS  /tmp/ccAMnzzp.s 			page 135
+ARM GAS  /tmp/ccnToDYn.s 			page 135
 
 
  7520 3519 02       		.byte	0x2
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7574 3573 02       		.byte	0x2
  7575 3574 23       		.byte	0x23
  7576 3575 1C       		.uleb128 0x1c
-ARM GAS  /tmp/ccAMnzzp.s 			page 136
+ARM GAS  /tmp/ccnToDYn.s 			page 136
 
 
  7577 3576 0D       		.uleb128 0xd
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7631 35d6 00       		.byte	0
  7632 35d7 06       		.uleb128 0x6
  7633 35d8 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 137
+ARM GAS  /tmp/ccnToDYn.s 			page 137
 
 
  7634 35d9 DF340000 		.4byte	0x34df
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7688 364b 5A360000 		.4byte	0x365a
  7689 364f 0A       		.uleb128 0xa
  7690 3650 CE000000 		.4byte	0xce
-ARM GAS  /tmp/ccAMnzzp.s 			page 138
+ARM GAS  /tmp/ccnToDYn.s 			page 138
 
 
  7691 3654 0A       		.uleb128 0xa
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7745 36c9 0B       		.byte	0xb
  7746 36ca B7       		.byte	0xb7
  7747 36cb 20       		.byte	0x20
-ARM GAS  /tmp/ccAMnzzp.s 			page 139
+ARM GAS  /tmp/ccnToDYn.s 			page 139
 
 
  7748 36cc D0360000 		.4byte	0x36d0
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7802 372c 23       		.byte	0x23
  7803 372d 10       		.uleb128 0x10
  7804 372e 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccAMnzzp.s 			page 140
+ARM GAS  /tmp/ccnToDYn.s 			page 140
 
 
  7805 372f AC4D0000 		.4byte	.LASF1616
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7859 3789 905F0000 		.4byte	.LASF1620
  7860 378d 0B       		.byte	0xb
  7861 378e CB       		.byte	0xcb
-ARM GAS  /tmp/ccAMnzzp.s 			page 141
+ARM GAS  /tmp/ccnToDYn.s 			page 141
 
 
  7862 378f 09       		.byte	0x9
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7916 3801 00       		.byte	0
  7917 3802 06       		.uleb128 0x6
  7918 3803 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 142
+ARM GAS  /tmp/ccnToDYn.s 			page 142
 
 
  7919 3804 F1370000 		.4byte	0x37f1
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  7973 3876 06       		.byte	0x6
  7974 3877 10       		.uleb128 0x10
  7975 3878 3C420000 		.4byte	.LASF1628
-ARM GAS  /tmp/ccAMnzzp.s 			page 143
+ARM GAS  /tmp/ccnToDYn.s 			page 143
 
 
  7976 387c 07       		.byte	0x7
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8030 38eb FA380000 		.4byte	0x38fa
  8031 38ef 0A       		.uleb128 0xa
  8032 38f0 CE000000 		.4byte	0xce
-ARM GAS  /tmp/ccAMnzzp.s 			page 144
+ARM GAS  /tmp/ccnToDYn.s 			page 144
 
 
  8033 38f4 0A       		.uleb128 0xa
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8087 3960 0D       		.uleb128 0xd
  8088 3961 CC6C0000 		.4byte	.LASF1638
  8089 3965 0B       		.byte	0xb
-ARM GAS  /tmp/ccAMnzzp.s 			page 145
+ARM GAS  /tmp/ccnToDYn.s 			page 145
 
 
  8090 3966 F2       		.byte	0xf2
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8144 39c0 FA       		.byte	0xfa
  8145 39c1 09       		.byte	0x9
  8146 39c2 8E3B0000 		.4byte	0x3b8e
-ARM GAS  /tmp/ccAMnzzp.s 			page 146
+ARM GAS  /tmp/ccnToDYn.s 			page 146
 
 
  8147 39c6 02       		.byte	0x2
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8201 3a23 02       		.byte	0x2
  8202 3a24 23       		.byte	0x23
  8203 3a25 34       		.uleb128 0x34
-ARM GAS  /tmp/ccAMnzzp.s 			page 147
+ARM GAS  /tmp/ccnToDYn.s 			page 147
 
 
  8204 3a26 1C       		.uleb128 0x1c
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8258 3a86 1C       		.uleb128 0x1c
  8259 3a87 B16A0000 		.4byte	.LASF1656
  8260 3a8b 0B       		.byte	0xb
-ARM GAS  /tmp/ccAMnzzp.s 			page 148
+ARM GAS  /tmp/ccnToDYn.s 			page 148
 
 
  8261 3a8c 0B01     		.2byte	0x10b
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8315 3aec 14       		.uleb128 0x14
  8316 3aed 01       		.byte	0x1
  8317 3aee F23A0000 		.4byte	0x3af2
-ARM GAS  /tmp/ccAMnzzp.s 			page 149
+ARM GAS  /tmp/ccnToDYn.s 			page 149
 
 
  8318 3af2 06       		.uleb128 0x6
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8372 3b67 0A       		.uleb128 0xa
  8373 3b68 22300000 		.4byte	0x3022
  8374 3b6c 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 150
+ARM GAS  /tmp/ccnToDYn.s 			page 150
 
 
  8375 3b6d 39010000 		.4byte	0x139
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8429 3bdf A8000000 		.4byte	0xa8
  8430 3be3 F73B0000 		.4byte	0x3bf7
  8431 3be7 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 151
+ARM GAS  /tmp/ccnToDYn.s 			page 151
 
 
  8432 3be8 F23A0000 		.4byte	0x3af2
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8486 3c60 0A       		.uleb128 0xa
  8487 3c61 F23A0000 		.4byte	0x3af2
  8488 3c65 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 152
+ARM GAS  /tmp/ccnToDYn.s 			page 152
 
 
  8489 3c66 A32B0000 		.4byte	0x2ba3
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8543 3cde 00       		.byte	0
  8544 3cdf 06       		.uleb128 0x6
  8545 3ce0 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 153
+ARM GAS  /tmp/ccnToDYn.s 			page 153
 
 
  8546 3ce1 CF3C0000 		.4byte	0x3ccf
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8600 3d47 A65F0000 		.4byte	.LASF1662
  8601 3d4b 0B       		.byte	0xb
  8602 3d4c 2401     		.2byte	0x124
-ARM GAS  /tmp/ccAMnzzp.s 			page 154
+ARM GAS  /tmp/ccnToDYn.s 			page 154
 
 
  8603 3d4e 09       		.byte	0x9
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8657 3db8 723D0000 		.4byte	0x3d72
  8658 3dbc 0A       		.uleb128 0xa
  8659 3dbd A8000000 		.4byte	0xa8
-ARM GAS  /tmp/ccAMnzzp.s 			page 155
+ARM GAS  /tmp/ccnToDYn.s 			page 155
 
 
  8660 3dc1 00       		.byte	0
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8714 3e2c 02       		.byte	0x2
  8715 3e2d 23       		.byte	0x23
  8716 3e2e 08       		.uleb128 0x8
-ARM GAS  /tmp/ccAMnzzp.s 			page 156
+ARM GAS  /tmp/ccnToDYn.s 			page 156
 
 
  8717 3e2f 1C       		.uleb128 0x1c
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8771 3e8f 1C       		.uleb128 0x1c
  8772 3e90 4BA60000 		.4byte	.LASF1671
  8773 3e94 0B       		.byte	0xb
-ARM GAS  /tmp/ccAMnzzp.s 			page 157
+ARM GAS  /tmp/ccnToDYn.s 			page 157
 
 
  8774 3e95 3801     		.2byte	0x138
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8828 3ef9 13       		.uleb128 0x13
  8829 3efa 01       		.byte	0x1
  8830 3efb A8000000 		.4byte	0xa8
-ARM GAS  /tmp/ccAMnzzp.s 			page 158
+ARM GAS  /tmp/ccnToDYn.s 			page 158
 
 
  8831 3eff 1D3F0000 		.4byte	0x3f1d
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8885 3f7d 0A       		.uleb128 0xa
  8886 3f7e DB3E0000 		.4byte	0x3edb
  8887 3f82 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccAMnzzp.s 			page 159
+ARM GAS  /tmp/ccnToDYn.s 			page 159
 
 
  8888 3f83 9B040000 		.4byte	0x49b
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8942 3ff5 DD3F0000 		.4byte	0x3fdd
  8943 3ff9 13       		.uleb128 0x13
  8944 3ffa 01       		.byte	0x1
-ARM GAS  /tmp/ccAMnzzp.s 			page 160
+ARM GAS  /tmp/ccnToDYn.s 			page 160
 
 
  8945 3ffb A8000000 		.4byte	0xa8
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  8999 4066 4901     		.2byte	0x149
  9000 4068 17       		.byte	0x17
  9001 4069 91410000 		.4byte	0x4191
-ARM GAS  /tmp/ccAMnzzp.s 			page 161
+ARM GAS  /tmp/ccnToDYn.s 			page 161
 
 
  9002 406d 02       		.byte	0x2
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9056 40cd 02       		.byte	0x2
  9057 40ce 23       		.byte	0x23
  9058 40cf 24       		.uleb128 0x24
-ARM GAS  /tmp/ccAMnzzp.s 			page 162
+ARM GAS  /tmp/ccnToDYn.s 			page 162
 
 
  9059 40d0 1C       		.uleb128 0x1c
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9113 4130 1C       		.uleb128 0x1c
  9114 4131 541F0000 		.4byte	.LASF1689
  9115 4135 0B       		.byte	0xb
-ARM GAS  /tmp/ccAMnzzp.s 			page 163
+ARM GAS  /tmp/ccnToDYn.s 			page 163
 
 
  9116 4136 5E01     		.2byte	0x15e
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9170 41a3 39010000 		.4byte	0x139
  9171 41a7 0A       		.uleb128 0xa
  9172 41a8 39010000 		.4byte	0x139
-ARM GAS  /tmp/ccAMnzzp.s 			page 164
+ARM GAS  /tmp/ccnToDYn.s 			page 164
 
 
  9173 41ac 0A       		.uleb128 0xa
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9227 4221 13       		.uleb128 0x13
  9228 4222 01       		.byte	0x1
  9229 4223 39010000 		.4byte	0x139
-ARM GAS  /tmp/ccAMnzzp.s 			page 165
+ARM GAS  /tmp/ccnToDYn.s 			page 165
 
 
  9230 4227 31420000 		.4byte	0x4231
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9284 42a2 04       		.byte	0x4
  9285 42a3 87420000 		.4byte	0x4287
  9286 42a7 1D       		.uleb128 0x1d
-ARM GAS  /tmp/ccAMnzzp.s 			page 166
+ARM GAS  /tmp/ccnToDYn.s 			page 166
 
 
  9287 42a8 60630000 		.4byte	.LASF1690
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9341 4313 07430000 		.4byte	.LASF1695
  9342 4317 0B       		.byte	0xb
  9343 4318 6B01     		.2byte	0x16b
-ARM GAS  /tmp/ccAMnzzp.s 			page 167
+ARM GAS  /tmp/ccnToDYn.s 			page 167
 
 
  9344 431a 08       		.byte	0x8
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9398 437a 08       		.byte	0x8
  9399 437b BF440000 		.4byte	0x44bf
  9400 437f 02       		.byte	0x2
-ARM GAS  /tmp/ccAMnzzp.s 			page 168
+ARM GAS  /tmp/ccnToDYn.s 			page 168
 
 
  9401 4380 23       		.byte	0x23
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9455 43e0 23       		.byte	0x23
  9456 43e1 38       		.uleb128 0x38
  9457 43e2 1C       		.uleb128 0x1c
-ARM GAS  /tmp/ccAMnzzp.s 			page 169
+ARM GAS  /tmp/ccnToDYn.s 			page 169
 
 
  9458 43e3 846B0000 		.4byte	.LASF1549
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9512 4447 01       		.byte	0x1
  9513 4448 A8000000 		.4byte	0xa8
  9514 444c 5B440000 		.4byte	0x445b
-ARM GAS  /tmp/ccAMnzzp.s 			page 170
+ARM GAS  /tmp/ccnToDYn.s 			page 170
 
 
  9515 4450 0A       		.uleb128 0xa
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9569 44c5 09       		.uleb128 0x9
  9570 44c6 01       		.byte	0x1
  9571 44c7 D6440000 		.4byte	0x44d6
-ARM GAS  /tmp/ccAMnzzp.s 			page 171
+ARM GAS  /tmp/ccnToDYn.s 			page 171
 
 
  9572 44cb 0A       		.uleb128 0xa
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9626 4540 04       		.byte	0x4
  9627 4541 29450000 		.4byte	0x4529
  9628 4545 13       		.uleb128 0x13
-ARM GAS  /tmp/ccAMnzzp.s 			page 172
+ARM GAS  /tmp/ccnToDYn.s 			page 172
 
 
  9629 4546 01       		.byte	0x1
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9683 45b5 03       		.byte	0x3
  9684 45b6 73450000 		.4byte	0x4573
  9685 45ba 1E       		.uleb128 0x1e
-ARM GAS  /tmp/ccAMnzzp.s 			page 173
+ARM GAS  /tmp/ccnToDYn.s 			page 173
 
 
  9686 45bb 675B0000 		.4byte	.LASF1716
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9740 461e 9B01     		.2byte	0x19b
  9741 4620 18       		.byte	0x18
  9742 4621 E7460000 		.4byte	0x46e7
-ARM GAS  /tmp/ccAMnzzp.s 			page 174
+ARM GAS  /tmp/ccnToDYn.s 			page 174
 
 
  9743 4625 02       		.byte	0x2
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9797 4686 0A       		.uleb128 0xa
  9798 4687 74460000 		.4byte	0x4674
  9799 468b 00       		.byte	0
-ARM GAS  /tmp/ccAMnzzp.s 			page 175
+ARM GAS  /tmp/ccnToDYn.s 			page 175
 
 
  9800 468c 06       		.uleb128 0x6
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9854 46ff 01       		.byte	0x1
  9855 4700 1E       		.uleb128 0x1e
  9856 4701 CF960000 		.4byte	.LASF1725
-ARM GAS  /tmp/ccAMnzzp.s 			page 176
+ARM GAS  /tmp/ccnToDYn.s 			page 176
 
 
  9857 4705 14       		.byte	0x14
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9911 4765 01       		.byte	0x1
  9912 4766 6A470000 		.4byte	0x476a
  9913 476a 06       		.uleb128 0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 177
+ARM GAS  /tmp/ccnToDYn.s 			page 177
 
 
  9914 476b 04       		.byte	0x4
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  9968 47de 01       		.byte	0x1
  9969 47df 1E       		.uleb128 0x1e
  9970 47e0 C79B0000 		.4byte	.LASF1727
-ARM GAS  /tmp/ccAMnzzp.s 			page 178
+ARM GAS  /tmp/ccnToDYn.s 			page 178
 
 
  9971 47e4 20       		.byte	0x20
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10025 4845 09       		.byte	0x9
  10026 4846 A8480000 		.4byte	0x48a8
  10027 484a 02       		.byte	0x2
-ARM GAS  /tmp/ccAMnzzp.s 			page 179
+ARM GAS  /tmp/ccnToDYn.s 			page 179
 
 
  10028 484b 23       		.byte	0x23
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10082 48b0 BF480000 		.4byte	0x48bf
  10083 48b4 0A       		.uleb128 0xa
  10084 48b5 79480000 		.4byte	0x4879
-ARM GAS  /tmp/ccAMnzzp.s 			page 180
+ARM GAS  /tmp/ccnToDYn.s 			page 180
 
 
  10085 48b9 0A       		.uleb128 0xa
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10139 4924 09       		.byte	0x9
  10140 4925 87490000 		.4byte	0x4987
  10141 4929 02       		.byte	0x2
-ARM GAS  /tmp/ccAMnzzp.s 			page 181
+ARM GAS  /tmp/ccnToDYn.s 			page 181
 
 
  10142 492a 23       		.byte	0x23
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10196 498f 9E490000 		.4byte	0x499e
  10197 4993 0A       		.uleb128 0xa
  10198 4994 58490000 		.4byte	0x4958
-ARM GAS  /tmp/ccAMnzzp.s 			page 182
+ARM GAS  /tmp/ccnToDYn.s 			page 182
 
 
  10199 4998 0A       		.uleb128 0xa
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10253 4a06 09       		.byte	0x9
  10254 4a07 C14A0000 		.4byte	0x4ac1
  10255 4a0b 02       		.byte	0x2
-ARM GAS  /tmp/ccAMnzzp.s 			page 183
+ARM GAS  /tmp/ccnToDYn.s 			page 183
 
 
  10256 4a0c 23       		.byte	0x23
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10310 4a6c 23       		.byte	0x23
  10311 4a6d 1C       		.uleb128 0x1c
  10312 4a6e 1C       		.uleb128 0x1c
-ARM GAS  /tmp/ccAMnzzp.s 			page 184
+ARM GAS  /tmp/ccnToDYn.s 			page 184
 
 
  10313 4a6f E33A0000 		.4byte	.LASF1751
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10367 4ada C74A0000 		.4byte	0x4ac7
  10368 4ade 09       		.uleb128 0x9
  10369 4adf 01       		.byte	0x1
-ARM GAS  /tmp/ccAMnzzp.s 			page 185
+ARM GAS  /tmp/ccnToDYn.s 			page 185
 
 
  10370 4ae0 EF4A0000 		.4byte	0x4aef
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10424 4b52 3F4B0000 		.4byte	0x4b3f
  10425 4b56 13       		.uleb128 0x13
  10426 4b57 01       		.byte	0x1
-ARM GAS  /tmp/ccAMnzzp.s 			page 186
+ARM GAS  /tmp/ccnToDYn.s 			page 186
 
 
  10427 4b58 A53B0000 		.4byte	0x3ba5
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10481 4bc3 E001     		.2byte	0x1e0
  10482 4bc5 09       		.byte	0x9
  10483 4bc6 584C0000 		.4byte	0x4c58
-ARM GAS  /tmp/ccAMnzzp.s 			page 187
+ARM GAS  /tmp/ccnToDYn.s 			page 187
 
 
  10484 4bca 02       		.byte	0x2
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10538 4c29 06       		.uleb128 0x6
  10539 4c2a 04       		.byte	0x4
  10540 4c2b 6C4B0000 		.4byte	0x4b6c
-ARM GAS  /tmp/ccAMnzzp.s 			page 188
+ARM GAS  /tmp/ccnToDYn.s 			page 188
 
 
  10541 4c2f 06       		.uleb128 0x6
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10595 4c9f CE4A0000 		.4byte	.LASF1763
  10596 4ca3 0B       		.byte	0xb
  10597 4ca4 EA01     		.2byte	0x1ea
-ARM GAS  /tmp/ccAMnzzp.s 			page 189
+ARM GAS  /tmp/ccnToDYn.s 			page 189
 
 
  10598 4ca6 0D       		.byte	0xd
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10652 4d13 1C       		.uleb128 0x1c
  10653 4d14 DB860000 		.4byte	.LASF1768
  10654 4d18 0B       		.byte	0xb
-ARM GAS  /tmp/ccAMnzzp.s 			page 190
+ARM GAS  /tmp/ccnToDYn.s 			page 190
 
 
  10655 4d19 F201     		.2byte	0x1f2
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10709 4d79 FA01     		.2byte	0x1fa
  10710 4d7b 31       		.byte	0x31
  10711 4d7c 694E0000 		.4byte	0x4e69
-ARM GAS  /tmp/ccAMnzzp.s 			page 191
+ARM GAS  /tmp/ccnToDYn.s 			page 191
 
 
  10712 4d80 02       		.byte	0x2
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10766 4de6 06       		.uleb128 0x6
  10767 4de7 04       		.byte	0x4
  10768 4de8 DA4D0000 		.4byte	0x4dda
-ARM GAS  /tmp/ccAMnzzp.s 			page 192
+ARM GAS  /tmp/ccnToDYn.s 			page 192
 
 
  10769 4dec 09       		.uleb128 0x9
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10823 4e5e 04       		.byte	0x4
  10824 4e5f 69460000 		.4byte	0x4669
  10825 4e63 06       		.uleb128 0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 193
+ARM GAS  /tmp/ccnToDYn.s 			page 193
 
 
  10826 4e64 04       		.byte	0x4
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10880 4ed9 0B       		.byte	0xb
  10881 4eda 0902     		.2byte	0x209
  10882 4edc 12       		.byte	0x12
-ARM GAS  /tmp/ccAMnzzp.s 			page 194
+ARM GAS  /tmp/ccnToDYn.s 			page 194
 
 
  10883 4edd E64F0000 		.4byte	0x4fe6
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10937 4f3d 55500000 		.4byte	0x5055
  10938 4f41 02       		.byte	0x2
  10939 4f42 23       		.byte	0x23
-ARM GAS  /tmp/ccAMnzzp.s 			page 195
+ARM GAS  /tmp/ccnToDYn.s 			page 195
 
 
  10940 4f43 18       		.uleb128 0x18
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  10994 4fa3 30       		.uleb128 0x30
  10995 4fa4 1C       		.uleb128 0x1c
  10996 4fa5 49780000 		.4byte	.LASF1790
-ARM GAS  /tmp/ccAMnzzp.s 			page 196
+ARM GAS  /tmp/ccnToDYn.s 			page 196
 
 
  10997 4fa9 0B       		.byte	0xb
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11051 5012 00       		.byte	0
  11052 5013 06       		.uleb128 0x6
  11053 5014 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 197
+ARM GAS  /tmp/ccnToDYn.s 			page 197
 
 
  11054 5015 FE4F0000 		.4byte	0x4ffe
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11108 508a 99500000 		.4byte	0x5099
  11109 508e 0A       		.uleb128 0xa
  11110 508f E04F0000 		.4byte	0x4fe0
-ARM GAS  /tmp/ccAMnzzp.s 			page 198
+ARM GAS  /tmp/ccnToDYn.s 			page 198
 
 
  11111 5093 0A       		.uleb128 0xa
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11165 5103 66520000 		.4byte	0x5266
  11166 5107 02       		.byte	0x2
  11167 5108 23       		.byte	0x23
-ARM GAS  /tmp/ccAMnzzp.s 			page 199
+ARM GAS  /tmp/ccnToDYn.s 			page 199
 
 
  11168 5109 04       		.uleb128 0x4
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11222 5169 1C       		.uleb128 0x1c
  11223 516a 1C       		.uleb128 0x1c
  11224 516b 10230000 		.4byte	.LASF1802
-ARM GAS  /tmp/ccAMnzzp.s 			page 200
+ARM GAS  /tmp/ccnToDYn.s 			page 200
 
 
  11225 516f 0B       		.byte	0xb
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11279 51cf 0B       		.byte	0xb
  11280 51d0 2E02     		.2byte	0x22e
  11281 51d2 11       		.byte	0x11
-ARM GAS  /tmp/ccAMnzzp.s 			page 201
+ARM GAS  /tmp/ccnToDYn.s 			page 201
 
 
  11282 51d3 D4520000 		.4byte	0x52d4
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11336 5233 C0080000 		.4byte	0x8c0
  11337 5237 02       		.byte	0x2
  11338 5238 23       		.byte	0x23
-ARM GAS  /tmp/ccAMnzzp.s 			page 202
+ARM GAS  /tmp/ccnToDYn.s 			page 202
 
 
  11339 5239 50       		.uleb128 0x50
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11393 529e 673D0000 		.4byte	0x3d67
  11394 52a2 06       		.uleb128 0x6
  11395 52a3 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 203
+ARM GAS  /tmp/ccnToDYn.s 			page 203
 
 
  11396 52a4 41410000 		.4byte	0x4141
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11450 5319 8F040000 		.4byte	0x48f
  11451 531d 0A       		.uleb128 0xa
  11452 531e 8F040000 		.4byte	0x48f
-ARM GAS  /tmp/ccAMnzzp.s 			page 204
+ARM GAS  /tmp/ccnToDYn.s 			page 204
 
 
  11453 5322 0A       		.uleb128 0xa
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11507 5382 0C       		.byte	0xc
  11508 5383 14       		.byte	0x14
  11509 5384 09       		.byte	0x9
-ARM GAS  /tmp/ccAMnzzp.s 			page 205
+ARM GAS  /tmp/ccnToDYn.s 			page 205
 
 
  11510 5385 CB530000 		.4byte	0x53cb
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11564 53e8 0C       		.uleb128 0xc
  11565 53e9 0C       		.byte	0xc
  11566 53ea 0D       		.byte	0xd
-ARM GAS  /tmp/ccAMnzzp.s 			page 206
+ARM GAS  /tmp/ccnToDYn.s 			page 206
 
 
  11567 53eb 07       		.byte	0x7
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11621 5448 0D       		.byte	0xd
  11622 5449 0F       		.byte	0xf
  11623 544a 0F       		.byte	0xf
-ARM GAS  /tmp/ccAMnzzp.s 			page 207
+ARM GAS  /tmp/ccnToDYn.s 			page 207
 
 
  11624 544b 34000000 		.4byte	0x34
@@ -12418,7 +12418,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11678 54a5 09       		.byte	0x9
  11679 54a6 C9540000 		.4byte	0x54c9
  11680 54aa 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccAMnzzp.s 			page 208
+ARM GAS  /tmp/ccnToDYn.s 			page 208
 
 
  11681 54ab 8D540000 		.4byte	.LASF1827
@@ -12478,7 +12478,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11735 5508 02       		.byte	0x2
  11736 5509 23       		.byte	0x23
  11737 550a 08       		.uleb128 0x8
-ARM GAS  /tmp/ccAMnzzp.s 			page 209
+ARM GAS  /tmp/ccnToDYn.s 			page 209
 
 
  11738 550b 00       		.byte	0
@@ -12538,7 +12538,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11792 5577 65220000 		.4byte	.LASF1840
  11793 557b 0D       		.byte	0xd
  11794 557c 24       		.byte	0x24
-ARM GAS  /tmp/ccAMnzzp.s 			page 210
+ARM GAS  /tmp/ccnToDYn.s 			page 210
 
 
  11795 557d 10       		.byte	0x10
@@ -12598,7 +12598,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11849 55e0 08       		.byte	0x8
  11850 55e1 78560000 		.4byte	0x5678
  11851 55e5 02       		.byte	0x2
-ARM GAS  /tmp/ccAMnzzp.s 			page 211
+ARM GAS  /tmp/ccnToDYn.s 			page 211
 
 
  11852 55e6 23       		.byte	0x23
@@ -12658,7 +12658,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11906 564f 00       		.byte	0
  11907 5650 06       		.uleb128 0x6
  11908 5651 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 212
+ARM GAS  /tmp/ccnToDYn.s 			page 212
 
 
  11909 5652 3B560000 		.4byte	0x563b
@@ -12718,7 +12718,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  11963 56c4 1C       		.byte	0x1c
  11964 56c5 C9560000 		.4byte	0x56c9
  11965 56c9 12       		.uleb128 0x12
-ARM GAS  /tmp/ccAMnzzp.s 			page 213
+ARM GAS  /tmp/ccnToDYn.s 			page 213
 
 
  11966 56ca DA110000 		.4byte	.LASF1849
@@ -12778,7 +12778,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12020 5727 22       		.byte	0x22
  12021 5728 1F       		.byte	0x1f
  12022 5729 7C570000 		.4byte	0x577c
-ARM GAS  /tmp/ccAMnzzp.s 			page 214
+ARM GAS  /tmp/ccnToDYn.s 			page 214
 
 
  12023 572d 02       		.byte	0x2
@@ -12838,7 +12838,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12077 578a 661E0000 		.4byte	0x1e66
  12078 578e 06       		.uleb128 0x6
  12079 578f 04       		.byte	0x4
-ARM GAS  /tmp/ccAMnzzp.s 			page 215
+ARM GAS  /tmp/ccnToDYn.s 			page 215
 
 
  12080 5790 16560000 		.4byte	0x5616
@@ -12898,7 +12898,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12134 57f9 03       		.byte	0x3
  12135 57fa 00000000 		.4byte	fontpath
  12136 57fe 21       		.uleb128 0x21
-ARM GAS  /tmp/ccAMnzzp.s 			page 216
+ARM GAS  /tmp/ccnToDYn.s 			page 216
 
 
  12137 57ff 896B0000 		.4byte	.LASF1868
@@ -12958,7 +12958,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12191 585f 01       		.byte	0x1
  12192 5860 A8000000 		.4byte	0xa8
  12193 5864 00000000 		.4byte	.LFB16
-ARM GAS  /tmp/ccAMnzzp.s 			page 217
+ARM GAS  /tmp/ccnToDYn.s 			page 217
 
 
  12194 5868 84000000 		.4byte	.LFE16
@@ -13018,7 +13018,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12248 58d0 27       		.uleb128 0x27
  12249 58d1 01       		.byte	0x1
  12250 58d2 50       		.byte	0x50
-ARM GAS  /tmp/ccAMnzzp.s 			page 218
+ARM GAS  /tmp/ccnToDYn.s 			page 218
 
 
  12251 58d3 01       		.byte	0x1
@@ -13078,7 +13078,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12305 5944 0F       		.byte	0xf
  12306 5945 EA000000 		.4byte	0xea
  12307 5949 02       		.byte	0x2
-ARM GAS  /tmp/ccAMnzzp.s 			page 219
+ARM GAS  /tmp/ccnToDYn.s 			page 219
 
 
  12308 594a 91       		.byte	0x91
@@ -13138,7 +13138,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12362              		.section	.debug_abbrev,"",%progbits
  12363              	.Ldebug_abbrev0:
  12364 0000 01       		.uleb128 0x1
-ARM GAS  /tmp/ccAMnzzp.s 			page 220
+ARM GAS  /tmp/ccnToDYn.s 			page 220
 
 
  12365 0001 11       		.uleb128 0x11
@@ -13198,7 +13198,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12419 0038 0B       		.uleb128 0xb
  12420 0039 03       		.uleb128 0x3
  12421 003a 08       		.uleb128 0x8
-ARM GAS  /tmp/ccAMnzzp.s 			page 221
+ARM GAS  /tmp/ccnToDYn.s 			page 221
 
 
  12422 003b 00       		.byte	0
@@ -13258,7 +13258,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12476 0071 13       		.uleb128 0x13
  12477 0072 01       		.byte	0x1
  12478 0073 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccAMnzzp.s 			page 222
+ARM GAS  /tmp/ccnToDYn.s 			page 222
 
 
  12479 0074 0B       		.uleb128 0xb
@@ -13318,7 +13318,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12533 00aa 3A       		.uleb128 0x3a
  12534 00ab 0B       		.uleb128 0xb
  12535 00ac 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccAMnzzp.s 			page 223
+ARM GAS  /tmp/ccnToDYn.s 			page 223
 
 
  12536 00ad 0B       		.uleb128 0xb
@@ -13378,7 +13378,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12590 00e3 15       		.uleb128 0x15
  12591 00e4 00       		.byte	0
  12592 00e5 27       		.uleb128 0x27
-ARM GAS  /tmp/ccAMnzzp.s 			page 224
+ARM GAS  /tmp/ccnToDYn.s 			page 224
 
 
  12593 00e6 0C       		.uleb128 0xc
@@ -13438,7 +13438,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12647 011c 00       		.byte	0
  12648 011d 19       		.uleb128 0x19
  12649 011e 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccAMnzzp.s 			page 225
+ARM GAS  /tmp/ccnToDYn.s 			page 225
 
 
  12650 011f 00       		.byte	0
@@ -13498,7 +13498,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12704 0155 3A       		.uleb128 0x3a
  12705 0156 0B       		.uleb128 0xb
  12706 0157 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccAMnzzp.s 			page 226
+ARM GAS  /tmp/ccnToDYn.s 			page 226
 
 
  12707 0158 05       		.uleb128 0x5
@@ -13558,7 +13558,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12761 018e 39       		.uleb128 0x39
  12762 018f 0B       		.uleb128 0xb
  12763 0190 01       		.uleb128 0x1
-ARM GAS  /tmp/ccAMnzzp.s 			page 227
+ARM GAS  /tmp/ccnToDYn.s 			page 227
 
 
  12764 0191 13       		.uleb128 0x13
@@ -13618,7 +13618,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12818 01c7 02       		.uleb128 0x2
  12819 01c8 0A       		.uleb128 0xa
  12820 01c9 00       		.byte	0
-ARM GAS  /tmp/ccAMnzzp.s 			page 228
+ARM GAS  /tmp/ccnToDYn.s 			page 228
 
 
  12821 01ca 00       		.byte	0
@@ -13678,7 +13678,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12875 0202 3B       		.uleb128 0x3b
  12876 0203 0B       		.uleb128 0xb
  12877 0204 39       		.uleb128 0x39
-ARM GAS  /tmp/ccAMnzzp.s 			page 229
+ARM GAS  /tmp/ccnToDYn.s 			page 229
 
 
  12878 0205 0B       		.uleb128 0xb
@@ -13738,7 +13738,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12932 0246 3B       		.uleb128 0x3b
  12933 0247 0B       		.uleb128 0xb
  12934 0248 39       		.uleb128 0x39
-ARM GAS  /tmp/ccAMnzzp.s 			page 230
+ARM GAS  /tmp/ccnToDYn.s 			page 230
 
 
  12935 0249 0B       		.uleb128 0xb
@@ -13798,7 +13798,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  12989 0281 02       		.uleb128 0x2
  12990 0282 0A       		.uleb128 0xa
  12991 0283 00       		.byte	0
-ARM GAS  /tmp/ccAMnzzp.s 			page 231
+ARM GAS  /tmp/ccnToDYn.s 			page 231
 
 
  12992 0284 00       		.byte	0
@@ -13858,7 +13858,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13046 005c 0A00     		.2byte	0xa
  13047 005e F3       		.byte	0xf3
  13048 005f 03       		.uleb128 0x3
-ARM GAS  /tmp/ccAMnzzp.s 			page 232
+ARM GAS  /tmp/ccnToDYn.s 			page 232
 
 
  13049 0060 F5       		.byte	0xf5
@@ -13918,7 +13918,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13103 00c9 7D       		.byte	0x7d
  13104 00ca 0C       		.sleb128 12
  13105 00cb 2C000000 		.4byte	.LCFI6
-ARM GAS  /tmp/ccAMnzzp.s 			page 233
+ARM GAS  /tmp/ccnToDYn.s 			page 233
 
 
  13106 00cf 30000000 		.4byte	.LCFI7
@@ -13978,7 +13978,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13160              	.LVUS5:
  13161 013d 00       		.uleb128 0
  13162 013e 00       		.uleb128 .LVU51
-ARM GAS  /tmp/ccAMnzzp.s 			page 234
+ARM GAS  /tmp/ccnToDYn.s 			page 234
 
 
  13163 013f 00       		.uleb128 .LVU51
@@ -14038,7 +14038,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13217 0197 15000000 		.4byte	.LVL10-1
  13218 019b 0100     		.2byte	0x1
  13219 019d 52       		.byte	0x52
-ARM GAS  /tmp/ccAMnzzp.s 			page 235
+ARM GAS  /tmp/ccnToDYn.s 			page 235
 
 
  13220 019e 15000000 		.4byte	.LVL10-1
@@ -14098,7 +14098,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13274 0018 30000000 		.4byte	.LBB5
  13275 001c 58000000 		.4byte	.LBE5
  13276 0020 00000000 		.4byte	0
-ARM GAS  /tmp/ccAMnzzp.s 			page 236
+ARM GAS  /tmp/ccnToDYn.s 			page 236
 
 
  13277 0024 00000000 		.4byte	0
@@ -14158,7 +14158,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13331 003e 21670000 		.4byte	.LASF486
  13332              		.file 20 "/usr/arm-none-eabi/include/machine/ieeefp.h"
  13333 0042 03       		.byte	0x3
-ARM GAS  /tmp/ccAMnzzp.s 			page 237
+ARM GAS  /tmp/ccnToDYn.s 			page 237
 
 
  13334 0043 04       		.uleb128 0x4
@@ -14218,7 +14218,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13388 0097 17       		.uleb128 0x17
  13389 0098 07       		.byte	0x7
  13390 0099 00000000 		.4byte	.Ldebug_macro14
-ARM GAS  /tmp/ccAMnzzp.s 			page 238
+ARM GAS  /tmp/ccnToDYn.s 			page 238
 
 
  13391 009d 04       		.byte	0x4
@@ -14278,7 +14278,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13445 00ea 07       		.byte	0x7
  13446 00eb 00000000 		.4byte	.Ldebug_macro21
  13447              		.file 28 "/usr/arm-none-eabi/include/sys/stdio.h"
-ARM GAS  /tmp/ccAMnzzp.s 			page 239
+ARM GAS  /tmp/ccnToDYn.s 			page 239
 
 
  13448 00ef 03       		.byte	0x3
@@ -14338,7 +14338,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13502 013c 0C       		.uleb128 0xc
  13503 013d 20       		.uleb128 0x20
  13504              		.file 33 "/usr/arm-none-eabi/include/stdint.h"
-ARM GAS  /tmp/ccAMnzzp.s 			page 240
+ARM GAS  /tmp/ccnToDYn.s 			page 240
 
 
  13505 013e 03       		.byte	0x3
@@ -14398,7 +14398,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13559 018d 0F       		.uleb128 0xf
  13560 018e 23       		.uleb128 0x23
  13561 018f 07       		.byte	0x7
-ARM GAS  /tmp/ccAMnzzp.s 			page 241
+ARM GAS  /tmp/ccnToDYn.s 			page 241
 
 
  13562 0190 00000000 		.4byte	.Ldebug_macro32
@@ -14458,7 +14458,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13616 01d8 03       		.uleb128 0x3
  13617 01d9 D00F0000 		.4byte	.LASF1045
  13618 01dd 03       		.byte	0x3
-ARM GAS  /tmp/ccAMnzzp.s 			page 242
+ARM GAS  /tmp/ccnToDYn.s 			page 242
 
 
  13619 01de 07       		.uleb128 0x7
@@ -14518,7 +14518,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13673 0029 4CA30000 		.4byte	.LASF6
  13674 002d 05       		.byte	0x5
  13675 002e 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 243
+ARM GAS  /tmp/ccnToDYn.s 			page 243
 
 
  13676 002f F40E0000 		.4byte	.LASF7
@@ -14578,7 +14578,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13730 009b BA810000 		.4byte	.LASF25
  13731 009f 05       		.byte	0x5
  13732 00a0 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 244
+ARM GAS  /tmp/ccnToDYn.s 			page 244
 
 
  13733 00a1 2F140000 		.4byte	.LASF26
@@ -14638,7 +14638,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13787 010d 20880000 		.4byte	.LASF44
  13788 0111 05       		.byte	0x5
  13789 0112 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 245
+ARM GAS  /tmp/ccnToDYn.s 			page 245
 
 
  13790 0113 833A0000 		.4byte	.LASF45
@@ -14698,7 +14698,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13844 017f A8440000 		.4byte	.LASF63
  13845 0183 05       		.byte	0x5
  13846 0184 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 246
+ARM GAS  /tmp/ccnToDYn.s 			page 246
 
 
  13847 0185 B11B0000 		.4byte	.LASF64
@@ -14758,7 +14758,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13901 01f1 A7040000 		.4byte	.LASF82
  13902 01f5 05       		.byte	0x5
  13903 01f6 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 247
+ARM GAS  /tmp/ccnToDYn.s 			page 247
 
 
  13904 01f7 733B0000 		.4byte	.LASF83
@@ -14818,7 +14818,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  13958 0263 383F0000 		.4byte	.LASF101
  13959 0267 05       		.byte	0x5
  13960 0268 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 248
+ARM GAS  /tmp/ccnToDYn.s 			page 248
 
 
  13961 0269 A6180000 		.4byte	.LASF102
@@ -14878,7 +14878,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14015 02d5 B9270000 		.4byte	.LASF120
  14016 02d9 05       		.byte	0x5
  14017 02da 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 249
+ARM GAS  /tmp/ccnToDYn.s 			page 249
 
 
  14018 02db DF2B0000 		.4byte	.LASF121
@@ -14938,7 +14938,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14072 0347 055E0000 		.4byte	.LASF139
  14073 034b 05       		.byte	0x5
  14074 034c 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 250
+ARM GAS  /tmp/ccnToDYn.s 			page 250
 
 
  14075 034d D16E0000 		.4byte	.LASF140
@@ -14998,7 +14998,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14129 03b9 6A270000 		.4byte	.LASF158
  14130 03bd 05       		.byte	0x5
  14131 03be 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 251
+ARM GAS  /tmp/ccnToDYn.s 			page 251
 
 
  14132 03bf 73310000 		.4byte	.LASF159
@@ -15058,7 +15058,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14186 042b 67670000 		.4byte	.LASF177
  14187 042f 05       		.byte	0x5
  14188 0430 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 252
+ARM GAS  /tmp/ccnToDYn.s 			page 252
 
 
  14189 0431 F60C0000 		.4byte	.LASF178
@@ -15118,7 +15118,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14243 049d F7740000 		.4byte	.LASF196
  14244 04a1 05       		.byte	0x5
  14245 04a2 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 253
+ARM GAS  /tmp/ccnToDYn.s 			page 253
 
 
  14246 04a3 51350000 		.4byte	.LASF197
@@ -15178,7 +15178,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14300 050f A1020000 		.4byte	.LASF215
  14301 0513 05       		.byte	0x5
  14302 0514 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 254
+ARM GAS  /tmp/ccnToDYn.s 			page 254
 
 
  14303 0515 07390000 		.4byte	.LASF216
@@ -15238,7 +15238,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14357 0581 CD9A0000 		.4byte	.LASF234
  14358 0585 05       		.byte	0x5
  14359 0586 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 255
+ARM GAS  /tmp/ccnToDYn.s 			page 255
 
 
  14360 0587 401B0000 		.4byte	.LASF235
@@ -15298,7 +15298,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14414 05f3 789A0000 		.4byte	.LASF253
  14415 05f7 05       		.byte	0x5
  14416 05f8 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 256
+ARM GAS  /tmp/ccnToDYn.s 			page 256
 
 
  14417 05f9 670C0000 		.4byte	.LASF254
@@ -15358,7 +15358,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14471 0665 B8480000 		.4byte	.LASF272
  14472 0669 05       		.byte	0x5
  14473 066a 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 257
+ARM GAS  /tmp/ccnToDYn.s 			page 257
 
 
  14474 066b 42820000 		.4byte	.LASF273
@@ -15418,7 +15418,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14528 06d7 3B400000 		.4byte	.LASF291
  14529 06db 05       		.byte	0x5
  14530 06dc 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 258
+ARM GAS  /tmp/ccnToDYn.s 			page 258
 
 
  14531 06dd E3260000 		.4byte	.LASF292
@@ -15478,7 +15478,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14585 0749 A6360000 		.4byte	.LASF310
  14586 074d 05       		.byte	0x5
  14587 074e 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 259
+ARM GAS  /tmp/ccnToDYn.s 			page 259
 
 
  14588 074f 0C000000 		.4byte	.LASF311
@@ -15538,7 +15538,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14642 07bb 126C0000 		.4byte	.LASF329
  14643 07bf 05       		.byte	0x5
  14644 07c0 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 260
+ARM GAS  /tmp/ccnToDYn.s 			page 260
 
 
  14645 07c1 0D970000 		.4byte	.LASF330
@@ -15598,7 +15598,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14699 082d 1E960000 		.4byte	.LASF348
  14700 0831 05       		.byte	0x5
  14701 0832 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 261
+ARM GAS  /tmp/ccnToDYn.s 			page 261
 
 
  14702 0833 1D060000 		.4byte	.LASF349
@@ -15658,7 +15658,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14756 089f AB570000 		.4byte	.LASF367
  14757 08a3 05       		.byte	0x5
  14758 08a4 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 262
+ARM GAS  /tmp/ccnToDYn.s 			page 262
 
 
  14759 08a5 AF670000 		.4byte	.LASF368
@@ -15718,7 +15718,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14813 0911 AC4F0000 		.4byte	.LASF386
  14814 0915 05       		.byte	0x5
  14815 0916 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 263
+ARM GAS  /tmp/ccnToDYn.s 			page 263
 
 
  14816 0917 804D0000 		.4byte	.LASF387
@@ -15778,7 +15778,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14870 0983 B3A10000 		.4byte	.LASF405
  14871 0987 06       		.byte	0x6
  14872 0988 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 264
+ARM GAS  /tmp/ccnToDYn.s 			page 264
 
 
  14873 0989 95510000 		.4byte	.LASF406
@@ -15838,7 +15838,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14927 09f5 754F0000 		.4byte	.LASF424
  14928 09f9 05       		.byte	0x5
  14929 09fa 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 265
+ARM GAS  /tmp/ccnToDYn.s 			page 265
 
 
  14930 09fb 74A50000 		.4byte	.LASF425
@@ -15898,7 +15898,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  14984 0a67 05180000 		.4byte	.LASF443
  14985 0a6b 06       		.byte	0x6
  14986 0a6c 00       		.uleb128 0
-ARM GAS  /tmp/ccAMnzzp.s 			page 266
+ARM GAS  /tmp/ccnToDYn.s 			page 266
 
 
  14987 0a6d E6980000 		.4byte	.LASF444
@@ -15958,7 +15958,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15041              	.Ldebug_macro3:
  15042 0000 0400     		.2byte	0x4
  15043 0002 00       		.byte	0
-ARM GAS  /tmp/ccAMnzzp.s 			page 267
+ARM GAS  /tmp/ccnToDYn.s 			page 267
 
 
  15044 0003 05       		.byte	0x5
@@ -16018,7 +16018,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15098 004b FF02     		.uleb128 0x17f
  15099 004d EB950000 		.4byte	.LASF481
  15100 0051 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 268
+ARM GAS  /tmp/ccnToDYn.s 			page 268
 
 
  15101 0052 8703     		.uleb128 0x187
@@ -16078,7 +16078,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15155 0023 06       		.byte	0x6
  15156 0024 8801     		.uleb128 0x88
  15157 0026 5E260000 		.4byte	.LASF498
-ARM GAS  /tmp/ccAMnzzp.s 			page 269
+ARM GAS  /tmp/ccnToDYn.s 			page 269
 
 
  15158 002a 05       		.byte	0x5
@@ -16138,7 +16138,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15212 000b E601     		.uleb128 0xe6
  15213 000d E6880000 		.4byte	.LASF515
  15214 0011 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 270
+ARM GAS  /tmp/ccnToDYn.s 			page 270
 
 
  15215 0012 EA01     		.uleb128 0xea
@@ -16198,7 +16198,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15269 0009 05       		.byte	0x5
  15270 000a 21       		.uleb128 0x21
  15271 000b 153F0000 		.4byte	.LASF531
-ARM GAS  /tmp/ccAMnzzp.s 			page 271
+ARM GAS  /tmp/ccnToDYn.s 			page 271
 
 
  15272 000f 05       		.byte	0x5
@@ -16258,7 +16258,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15326 0006 8B5B0000 		.4byte	.LASF547
  15327 000a 05       		.byte	0x5
  15328 000b BA01     		.uleb128 0xba
-ARM GAS  /tmp/ccAMnzzp.s 			page 272
+ARM GAS  /tmp/ccnToDYn.s 			page 272
 
 
  15329 000d 929E0000 		.4byte	.LASF548
@@ -16318,7 +16318,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15383 008b F83C0000 		.4byte	.LASF566
  15384 008f 05       		.byte	0x5
  15385 0090 9403     		.uleb128 0x194
-ARM GAS  /tmp/ccAMnzzp.s 			page 273
+ARM GAS  /tmp/ccnToDYn.s 			page 273
 
 
  15386 0092 0D790000 		.4byte	.LASF567
@@ -16378,7 +16378,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15440 005d 05       		.byte	0x5
  15441 005e 5E       		.uleb128 0x5e
  15442 005f A78D0000 		.4byte	.LASF584
-ARM GAS  /tmp/ccAMnzzp.s 			page 274
+ARM GAS  /tmp/ccnToDYn.s 			page 274
 
 
  15443 0063 05       		.byte	0x5
@@ -16438,7 +16438,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15497 00d6 05       		.byte	0x5
  15498 00d7 8E01     		.uleb128 0x8e
  15499 00d9 398B0000 		.4byte	.LASF603
-ARM GAS  /tmp/ccAMnzzp.s 			page 275
+ARM GAS  /tmp/ccnToDYn.s 			page 275
 
 
  15500 00dd 05       		.byte	0x5
@@ -16498,7 +16498,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15554 015b 05       		.byte	0x5
  15555 015c EC01     		.uleb128 0xec
  15556 015e FD450000 		.4byte	.LASF622
-ARM GAS  /tmp/ccAMnzzp.s 			page 276
+ARM GAS  /tmp/ccnToDYn.s 			page 276
 
 
  15557 0162 05       		.byte	0x5
@@ -16558,7 +16558,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15611 01e0 05       		.byte	0x5
  15612 01e1 CE03     		.uleb128 0x1ce
  15613 01e3 182C0000 		.4byte	.LASF641
-ARM GAS  /tmp/ccAMnzzp.s 			page 277
+ARM GAS  /tmp/ccnToDYn.s 			page 277
 
 
  15614 01e7 05       		.byte	0x5
@@ -16618,7 +16618,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15668 0265 05       		.byte	0x5
  15669 0266 CA04     		.uleb128 0x24a
  15670 0268 71720000 		.4byte	.LASF660
-ARM GAS  /tmp/ccAMnzzp.s 			page 278
+ARM GAS  /tmp/ccnToDYn.s 			page 278
 
 
  15671 026c 05       		.byte	0x5
@@ -16678,7 +16678,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15725 02ea 05       		.byte	0x5
  15726 02eb A605     		.uleb128 0x2a6
  15727 02ed 13620000 		.4byte	.LASF679
-ARM GAS  /tmp/ccAMnzzp.s 			page 279
+ARM GAS  /tmp/ccnToDYn.s 			page 279
 
 
  15728 02f1 05       		.byte	0x5
@@ -16738,7 +16738,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15782 0000 0400     		.2byte	0x4
  15783 0002 00       		.byte	0
  15784 0003 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 280
+ARM GAS  /tmp/ccnToDYn.s 			page 280
 
 
  15785 0004 27       		.uleb128 0x27
@@ -16798,7 +16798,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15839 007f 8E02     		.uleb128 0x10e
  15840 0081 81710000 		.4byte	.LASF714
  15841 0085 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 281
+ARM GAS  /tmp/ccnToDYn.s 			page 281
 
 
  15842 0086 8F02     		.uleb128 0x10f
@@ -16858,7 +16858,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15896 0104 A003     		.uleb128 0x1a0
  15897 0106 7F560000 		.4byte	.LASF730
  15898 010a 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 282
+ARM GAS  /tmp/ccnToDYn.s 			page 282
 
 
  15899 010b A503     		.uleb128 0x1a5
@@ -16918,7 +16918,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  15953 0035 9A03     		.uleb128 0x19a
  15954 0037 73560000 		.4byte	.LASF568
  15955 003b 06       		.byte	0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 283
+ARM GAS  /tmp/ccnToDYn.s 			page 283
 
 
  15956 003c 9F03     		.uleb128 0x19f
@@ -16978,7 +16978,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16010 0010 25       		.uleb128 0x25
  16011 0011 74520000 		.4byte	.LASF753
  16012 0015 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 284
+ARM GAS  /tmp/ccnToDYn.s 			page 284
 
 
  16013 0016 27       		.uleb128 0x27
@@ -17038,7 +17038,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16067 0027 367E0000 		.4byte	.LASF770
  16068 002b 05       		.byte	0x5
  16069 002c AD02     		.uleb128 0x12d
-ARM GAS  /tmp/ccAMnzzp.s 			page 285
+ARM GAS  /tmp/ccnToDYn.s 			page 285
 
 
  16070 002e E6530000 		.4byte	.LASF771
@@ -17098,7 +17098,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16124 00ac 302D0000 		.4byte	.LASF789
  16125 00b0 05       		.byte	0x5
  16126 00b1 C605     		.uleb128 0x2c6
-ARM GAS  /tmp/ccAMnzzp.s 			page 286
+ARM GAS  /tmp/ccnToDYn.s 			page 286
 
 
  16127 00b3 D1810000 		.4byte	.LASF790
@@ -17158,7 +17158,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16181 0131 C7170000 		.4byte	.LASF808
  16182 0135 05       		.byte	0x5
  16183 0136 DA05     		.uleb128 0x2da
-ARM GAS  /tmp/ccAMnzzp.s 			page 287
+ARM GAS  /tmp/ccnToDYn.s 			page 287
 
 
  16184 0138 912F0000 		.4byte	.LASF809
@@ -17218,7 +17218,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16238 01b6 0E810000 		.4byte	.LASF827
  16239 01ba 05       		.byte	0x5
  16240 01bb 8006     		.uleb128 0x300
-ARM GAS  /tmp/ccAMnzzp.s 			page 288
+ARM GAS  /tmp/ccnToDYn.s 			page 288
 
 
  16241 01bd 75170000 		.4byte	.LASF828
@@ -17278,7 +17278,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16295 0011 72590000 		.4byte	.LASF841
  16296 0015 05       		.byte	0x5
  16297 0016 5A       		.uleb128 0x5a
-ARM GAS  /tmp/ccAMnzzp.s 			page 289
+ARM GAS  /tmp/ccnToDYn.s 			page 289
 
 
  16298 0017 BB450000 		.4byte	.LASF842
@@ -17338,7 +17338,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16352 0084 5A2F0000 		.4byte	.LASF860
  16353 0088 05       		.byte	0x5
  16354 0089 8701     		.uleb128 0x87
-ARM GAS  /tmp/ccAMnzzp.s 			page 290
+ARM GAS  /tmp/ccnToDYn.s 			page 290
 
 
  16355 008b D08A0000 		.4byte	.LASF861
@@ -17398,7 +17398,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16409 0109 42230000 		.4byte	.LASF879
  16410 010d 05       		.byte	0x5
  16411 010e D305     		.uleb128 0x2d3
-ARM GAS  /tmp/ccAMnzzp.s 			page 291
+ARM GAS  /tmp/ccnToDYn.s 			page 291
 
 
  16412 0110 4E7E0000 		.4byte	.LASF880
@@ -17458,7 +17458,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16466 0015 00       		.byte	0
  16467              		.section	.debug_macro,"G",%progbits,wm4.stddef.h.158.eec8bf00b5213f43d095cb984c5f22e3,comdat
  16468              	.Ldebug_macro25:
-ARM GAS  /tmp/ccAMnzzp.s 			page 292
+ARM GAS  /tmp/ccnToDYn.s 			page 292
 
 
  16469 0000 0400     		.2byte	0x4
@@ -17518,7 +17518,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16523 0015 05       		.byte	0x5
  16524 0016 3F       		.uleb128 0x3f
  16525 0017 6D740000 		.4byte	.LASF903
-ARM GAS  /tmp/ccAMnzzp.s 			page 293
+ARM GAS  /tmp/ccnToDYn.s 			page 293
 
 
  16526 001b 05       		.byte	0x5
@@ -17578,7 +17578,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16580 0058 37       		.uleb128 0x37
  16581 0059 5B240000 		.4byte	.LASF920
  16582 005d 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 294
+ARM GAS  /tmp/ccnToDYn.s 			page 294
 
 
  16583 005e 38       		.uleb128 0x38
@@ -17638,7 +17638,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16637 00d2 B901     		.uleb128 0xb9
  16638 00d4 F8650000 		.4byte	.LASF744
  16639 00d8 06       		.byte	0x6
-ARM GAS  /tmp/ccAMnzzp.s 			page 295
+ARM GAS  /tmp/ccnToDYn.s 			page 295
 
 
  16640 00d9 BA01     		.uleb128 0xba
@@ -17698,7 +17698,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16694 0041 35130000 		.4byte	.LASF948
  16695 0045 05       		.byte	0x5
  16696 0046 3D       		.uleb128 0x3d
-ARM GAS  /tmp/ccAMnzzp.s 			page 296
+ARM GAS  /tmp/ccnToDYn.s 			page 296
 
 
  16697 0047 1D0B0000 		.4byte	.LASF949
@@ -17758,7 +17758,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16751 0048 05       		.byte	0x5
  16752 0049 9801     		.uleb128 0x98
  16753 004b 22710000 		.4byte	.LASF966
-ARM GAS  /tmp/ccAMnzzp.s 			page 297
+ARM GAS  /tmp/ccnToDYn.s 			page 297
 
 
  16754 004f 05       		.byte	0x5
@@ -17818,7 +17818,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16808 00cd 05       		.byte	0x5
  16809 00ce E701     		.uleb128 0xe7
  16810 00d0 231F0000 		.4byte	.LASF985
-ARM GAS  /tmp/ccAMnzzp.s 			page 298
+ARM GAS  /tmp/ccnToDYn.s 			page 298
 
 
  16811 00d4 05       		.byte	0x5
@@ -17878,7 +17878,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16865 0152 05       		.byte	0x5
  16866 0153 CF02     		.uleb128 0x14f
  16867 0155 CC9E0000 		.4byte	.LASF1004
-ARM GAS  /tmp/ccAMnzzp.s 			page 299
+ARM GAS  /tmp/ccnToDYn.s 			page 299
 
 
  16868 0159 05       		.byte	0x5
@@ -17938,7 +17938,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16922 01d7 05       		.byte	0x5
  16923 01d8 C203     		.uleb128 0x1c2
  16924 01da 61650000 		.4byte	.LASF1023
-ARM GAS  /tmp/ccAMnzzp.s 			page 300
+ARM GAS  /tmp/ccnToDYn.s 			page 300
 
 
  16925 01de 00       		.byte	0
@@ -17998,7 +17998,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  16979 0015 05       		.byte	0x5
  16980 0016 1B       		.uleb128 0x1b
  16981 0017 13A20000 		.4byte	.LASF1043
-ARM GAS  /tmp/ccAMnzzp.s 			page 301
+ARM GAS  /tmp/ccnToDYn.s 			page 301
 
 
  16982 001b 05       		.byte	0x5
@@ -18058,7 +18058,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17036 0067 C801     		.uleb128 0xc8
  17037 0069 B68D0000 		.4byte	.LASF1061
  17038 006d 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 302
+ARM GAS  /tmp/ccnToDYn.s 			page 302
 
 
  17039 006e CC01     		.uleb128 0xcc
@@ -18118,7 +18118,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17093 00ec D204     		.uleb128 0x252
  17094 00ee 47140000 		.4byte	.LASF1080
  17095 00f2 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 303
+ARM GAS  /tmp/ccnToDYn.s 			page 303
 
 
  17096 00f3 D604     		.uleb128 0x256
@@ -18178,7 +18178,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17150 0171 F404     		.uleb128 0x274
  17151 0173 B8A30000 		.4byte	.LASF1099
  17152 0177 05       		.byte	0x5
-ARM GAS  /tmp/ccAMnzzp.s 			page 304
+ARM GAS  /tmp/ccnToDYn.s 			page 304
 
 
  17153 0178 F504     		.uleb128 0x275
@@ -18238,7 +18238,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17182      45525F5F 
  17183              	.LASF1420:
  17184 0094 6B46696C 		.ascii	"kFileReadData\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 305
+ARM GAS  /tmp/ccnToDYn.s 			page 305
 
 
  17184      65526561 
@@ -18298,7 +18298,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17204              	.LASF199:
  17205 018a 5F5F464C 		.ascii	"__FLT32_DIG__ 6\000"
  17205      5433325F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 306
+ARM GAS  /tmp/ccnToDYn.s 			page 306
 
 
  17205      4449475F 
@@ -18358,7 +18358,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17225      4F4E00
  17226              	.LASF1867:
  17227 027e 666F6E74 		.ascii	"fontpath\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 307
+ARM GAS  /tmp/ccnToDYn.s 			page 307
 
 
  17227      70617468 
@@ -18418,7 +18418,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17247      65616469 
  17247      6E6700
  17248              	.LASF1474:
-ARM GAS  /tmp/ccAMnzzp.s 			page 308
+ARM GAS  /tmp/ccnToDYn.s 			page 308
 
 
  17249 034e 61646444 		.ascii	"addDirtyRect\000"
@@ -18478,7 +18478,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17267      585F5F20 
  17267      30783766 
  17268              	.LASF1070:
-ARM GAS  /tmp/ccAMnzzp.s 			page 309
+ARM GAS  /tmp/ccnToDYn.s 			page 309
 
 
  17269 0448 69736E61 		.ascii	"isnan(__x) (__builtin_isnan (__x))\000"
@@ -18538,7 +18538,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17288      494E2028 
  17288      2D5F5F53 
  17289              	.LASF797:
-ARM GAS  /tmp/ccAMnzzp.s 			page 310
+ARM GAS  /tmp/ccnToDYn.s 			page 310
 
 
  17290 056e 5F524545 		.ascii	"_REENT_MP_RESULT(ptr) ((ptr)->_result)\000"
@@ -18598,7 +18598,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17308      30583746 
  17309              	.LASF359:
  17310 0662 5F5F5544 		.ascii	"__UDA_FBIT__ 32\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 311
+ARM GAS  /tmp/ccnToDYn.s 			page 311
 
 
  17310      415F4642 
@@ -18658,7 +18658,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17330      774D6F64 
  17330      6500
  17331              	.LASF1488:
-ARM GAS  /tmp/ccAMnzzp.s 			page 312
+ARM GAS  /tmp/ccnToDYn.s 			page 312
 
 
  17332 0732 6D6F7665 		.ascii	"moveBy\000"
@@ -18718,7 +18718,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17352      742000
  17353              	.LASF944:
  17354 07f1 5F5F696E 		.ascii	"__int16_t_defined 1\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 313
+ARM GAS  /tmp/ccnToDYn.s 			page 313
 
 
  17354      7431365F 
@@ -18778,7 +18778,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17374      41727065 
  17374      67676961 
  17374      746F7200 
-ARM GAS  /tmp/ccAMnzzp.s 			page 314
+ARM GAS  /tmp/ccnToDYn.s 			page 314
 
 
  17375              	.LASF1234:
@@ -18838,7 +18838,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17396              	.LASF130:
  17397 099a 5F5F494E 		.ascii	"__INT_FAST16_WIDTH__ 32\000"
  17397      545F4641 
-ARM GAS  /tmp/ccAMnzzp.s 			page 315
+ARM GAS  /tmp/ccnToDYn.s 			page 315
 
 
  17397      53543136 
@@ -18898,7 +18898,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17419      70726974 
  17419      6500
  17420              	.LASF1210:
-ARM GAS  /tmp/ccAMnzzp.s 			page 316
+ARM GAS  /tmp/ccnToDYn.s 			page 316
 
 
  17421 0a5e 6C6F6164 		.ascii	"loadBitmap\000"
@@ -18958,7 +18958,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17442              	.LASF621:
  17443 0b31 5F5F616C 		.ascii	"__aligned(x) __attribute__((__aligned__(x)))\000"
  17443      69676E65 
-ARM GAS  /tmp/ccAMnzzp.s 			page 317
+ARM GAS  /tmp/ccnToDYn.s 			page 317
 
 
  17443      64287829 
@@ -19018,7 +19018,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17465      65636179 
  17465      54696D65 
  17465      00
-ARM GAS  /tmp/ccAMnzzp.s 			page 318
+ARM GAS  /tmp/ccnToDYn.s 			page 318
 
 
  17466              	.LASF488:
@@ -19078,7 +19078,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17489 0ca8 6B426974 		.ascii	"kBitmapFlippedY\000"
  17489      6D617046 
  17489      6C697070 
-ARM GAS  /tmp/ccAMnzzp.s 			page 319
+ARM GAS  /tmp/ccnToDYn.s 			page 319
 
 
  17489      65645900 
@@ -19138,7 +19138,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17508      2D5F5F49 
  17509              	.LASF72:
  17510 0db2 5F5F5348 		.ascii	"__SHRT_MAX__ 0x7fff\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 320
+ARM GAS  /tmp/ccnToDYn.s 			page 320
 
 
  17510      52545F4D 
@@ -19198,7 +19198,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17532 0e64 64696444 		.ascii	"didDecodeTableValue\000"
  17532      65636F64 
  17532      65546162 
-ARM GAS  /tmp/ccAMnzzp.s 			page 321
+ARM GAS  /tmp/ccnToDYn.s 			page 321
 
 
  17532      6C655661 
@@ -19258,7 +19258,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17553      5F4D4158 
  17553      5F5F2030 
  17554              	.LASF497:
-ARM GAS  /tmp/ccAMnzzp.s 			page 322
+ARM GAS  /tmp/ccnToDYn.s 			page 322
 
 
  17555 0f68 5F444546 		.ascii	"_DEFAULT_SOURCE 1\000"
@@ -19318,7 +19318,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17575      744D6F64 
  17575      756C6174 
  17575      6F7200
-ARM GAS  /tmp/ccAMnzzp.s 			page 323
+ARM GAS  /tmp/ccnToDYn.s 			page 323
 
 
  17576              	.LASF17:
@@ -19378,7 +19378,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17596              	.LASF590:
  17597 1109 5F5F474E 		.ascii	"__GNUCLIKE_CTOR_SECTION_HANDLING 1\000"
  17597      55434C49 
-ARM GAS  /tmp/ccAMnzzp.s 			page 324
+ARM GAS  /tmp/ccnToDYn.s 			page 324
 
 
  17597      4B455F43 
@@ -19438,7 +19438,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17619      46696C6C 
  17619      4576656E 
  17619      4F646400 
-ARM GAS  /tmp/ccAMnzzp.s 			page 325
+ARM GAS  /tmp/ccnToDYn.s 			page 325
 
 
  17620              	.LASF536:
@@ -19498,7 +19498,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17638      00
  17639              	.LASF780:
  17640 131d 5F524545 		.ascii	"_REENT_INIT_RESERVED_2 \000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 326
+ARM GAS  /tmp/ccnToDYn.s 			page 326
 
 
  17640      4E545F49 
@@ -19558,7 +19558,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17660      756500
  17661              	.LASF1845:
  17662 1409 67657453 		.ascii	"getScoreboards\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 327
+ARM GAS  /tmp/ccnToDYn.s 			page 327
 
 
  17662      636F7265 
@@ -19618,7 +19618,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17683      5433325F 
  17683      4D494E5F 
  17683      31305F45 
-ARM GAS  /tmp/ccAMnzzp.s 			page 328
+ARM GAS  /tmp/ccnToDYn.s 			page 328
 
 
  17683      58505F5F 
@@ -19678,7 +19678,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17703      485F2000 
  17704              	.LASF1803:
  17705 15c3 736F7572 		.ascii	"source\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 329
+ARM GAS  /tmp/ccnToDYn.s 			page 329
 
 
  17705      636500
@@ -19738,7 +19738,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17727      6E746849 
  17727      6E737472 
  17727      756D656E 
-ARM GAS  /tmp/ccAMnzzp.s 			page 330
+ARM GAS  /tmp/ccnToDYn.s 			page 330
 
 
  17727      7400
@@ -19798,7 +19798,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17747      494E4954 
  17748              	.LASF828:
  17749 1775 5F5F4154 		.ascii	"__ATTRIBUTE_IMPURE_DATA__ \000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 331
+ARM GAS  /tmp/ccnToDYn.s 			page 331
 
 
  17749      54524942 
@@ -19858,7 +19858,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17770 1858 67657457 		.ascii	"getWidth\000"
  17770      69647468 
  17770      00
-ARM GAS  /tmp/ccAMnzzp.s 			page 332
+ARM GAS  /tmp/ccnToDYn.s 			page 332
 
 
  17771              	.LASF422:
@@ -19918,7 +19918,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17792 1916 5F524545 		.ascii	"_REENT_CHECK_SIGNAL_BUF(ptr) \000"
  17792      4E545F43 
  17792      4845434B 
-ARM GAS  /tmp/ccAMnzzp.s 			page 333
+ARM GAS  /tmp/ccnToDYn.s 			page 333
 
 
  17792      5F534947 
@@ -19978,7 +19978,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17805 1b25 61727261 		.ascii	"arrayval\000"
  17805      7976616C 
  17805      00
-ARM GAS  /tmp/ccAMnzzp.s 			page 334
+ARM GAS  /tmp/ccnToDYn.s 			page 334
 
 
  17806              	.LASF1748:
@@ -20038,7 +20038,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17826      5F524545 
  17826      4E545F49 
  17826      4E49545F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 335
+ARM GAS  /tmp/ccnToDYn.s 			page 335
 
 
  17827 1c52 5F524553 		.ascii	"_RESERVED_0 _NULL, _NULL, 0, _NULL, _NULL, 0, _NULL"
@@ -20098,7 +20098,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17841              	.LASF535:
  17842 1dec 5F5F4558 		.ascii	"__EXP(x) __ ##x ##__\000"
  17842      50287829 
-ARM GAS  /tmp/ccAMnzzp.s 			page 336
+ARM GAS  /tmp/ccnToDYn.s 			page 336
 
 
  17842      205F5F20 
@@ -20158,7 +20158,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17861 1ede 5F5F6861 		.ascii	"__has_feature(x) 0\000"
  17861      735F6665 
  17861      61747572 
-ARM GAS  /tmp/ccAMnzzp.s 			page 337
+ARM GAS  /tmp/ccnToDYn.s 			page 337
 
 
  17861      65287829 
@@ -20218,7 +20218,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17880              	.LASF1290:
  17881 1ff3 61646443 		.ascii	"addCheckmarkMenuItem\000"
  17881      6865636B 
-ARM GAS  /tmp/ccAMnzzp.s 			page 338
+ARM GAS  /tmp/ccnToDYn.s 			page 338
 
 
  17881      6D61726B 
@@ -20278,7 +20278,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17901      7300
  17902              	.LASF1238:
  17903 20ab 64726177 		.ascii	"drawRotatedBitmap\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 339
+ARM GAS  /tmp/ccnToDYn.s 			page 339
 
 
  17903      526F7461 
@@ -20338,7 +20338,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17926      434F4E53 
  17926      54287479 
  17926      70652C76 
-ARM GAS  /tmp/ccAMnzzp.s 			page 340
+ARM GAS  /tmp/ccnToDYn.s 			page 340
 
 
  17926      61722920 
@@ -20398,7 +20398,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17947 2274 5F5F494E 		.ascii	"__INT_FAST8_WIDTH__ 32\000"
  17947      545F4641 
  17947      5354385F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 341
+ARM GAS  /tmp/ccnToDYn.s 			page 341
 
 
  17947      57494454 
@@ -20458,7 +20458,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17967      282D302E 
  17968              	.LASF1333:
  17969 2392 74797065 		.ascii	"type\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 342
+ARM GAS  /tmp/ccnToDYn.s 			page 342
 
 
  17969      00
@@ -20518,7 +20518,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  17991              	.LASF1435:
  17992 2466 6C697374 		.ascii	"listfiles\000"
  17992      66696C65 
-ARM GAS  /tmp/ccAMnzzp.s 			page 343
+ARM GAS  /tmp/ccnToDYn.s 			page 343
 
 
  17992      7300
@@ -20578,7 +20578,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18012      20353300 
  18013              	.LASF289:
  18014 253c 5F5F5341 		.ascii	"__SACCUM_MIN__ (-0X1P7HK-0X1P7HK)\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 344
+ARM GAS  /tmp/ccnToDYn.s 			page 344
 
 
  18014      4343554D 
@@ -20638,7 +20638,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18034 260e 706C6179 		.ascii	"playdate_sound_instrument\000"
  18034      64617465 
  18034      5F736F75 
-ARM GAS  /tmp/ccAMnzzp.s 			page 345
+ARM GAS  /tmp/ccnToDYn.s 			page 345
 
 
  18034      6E645F69 
@@ -20698,7 +20698,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18056      41434355 
  18056      4D5F4642 
  18056      49545F5F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 346
+ARM GAS  /tmp/ccnToDYn.s 			page 346
 
 
  18056      203800
@@ -20758,7 +20758,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18076      7956616C 
  18077              	.LASF600:
  18078 27ed 5F5F4343 		.ascii	"__CC_SUPPORTS_INLINE 1\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 347
+ARM GAS  /tmp/ccnToDYn.s 			page 347
 
 
  18078      5F535550 
@@ -20818,7 +20818,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18097              	.LASF578:
  18098 28e8 5F5F666C 		.ascii	"__flexarr [0]\000"
  18098      65786172 
-ARM GAS  /tmp/ccAMnzzp.s 			page 348
+ARM GAS  /tmp/ccnToDYn.s 			page 348
 
 
  18098      72205B30 
@@ -20878,7 +20878,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18121 29bf 54415247 		.ascii	"TARGET_PLAYDATE 1\000"
  18121      45545F50 
  18121      4C415944 
-ARM GAS  /tmp/ccAMnzzp.s 			page 349
+ARM GAS  /tmp/ccnToDYn.s 			page 349
 
 
  18121      41544520 
@@ -20938,7 +20938,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18143              	.LASF1501:
  18144 2a9a 636F6C6C 		.ascii	"collisionsEnabled\000"
  18144      6973696F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 350
+ARM GAS  /tmp/ccnToDYn.s 			page 350
 
 
  18144      6E73456E 
@@ -20998,7 +20998,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18166              	.LASF1366:
  18167 2b76 63616C6C 		.ascii	"callFunction_deprecated\000"
  18167      46756E63 
-ARM GAS  /tmp/ccAMnzzp.s 			page 351
+ARM GAS  /tmp/ccnToDYn.s 			page 351
 
 
  18167      74696F6E 
@@ -21058,7 +21058,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18187      5452544F 
  18187      4B5F4C41 
  18187      53542870 
-ARM GAS  /tmp/ccAMnzzp.s 			page 352
+ARM GAS  /tmp/ccnToDYn.s 			page 352
 
 
  18188 2c90 5F6C6173 		.ascii	"_last)\000"
@@ -21118,7 +21118,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18208      36345F4D 
  18208      41585F5F 
  18209              	.LASF1518:
-ARM GAS  /tmp/ccAMnzzp.s 			page 353
+ARM GAS  /tmp/ccnToDYn.s 			page 353
 
 
  18210 2d78 6D6F7665 		.ascii	"moveWithCollisions\000"
@@ -21178,7 +21178,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18228      73756D65 
  18228      00
  18229              	.LASF1473:
-ARM GAS  /tmp/ccAMnzzp.s 			page 354
+ARM GAS  /tmp/ccnToDYn.s 			page 354
 
 
  18230 2e8c 73657441 		.ascii	"setAlwaysRedraw\000"
@@ -21238,7 +21238,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18250      30323400 
  18251              	.LASF204:
  18252 2f66 5F5F464C 		.ascii	"__FLT32_DECIMAL_DIG__ 9\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 355
+ARM GAS  /tmp/ccnToDYn.s 			page 355
 
 
  18252      5433325F 
@@ -21298,7 +21298,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18271      6500
  18272              	.LASF491:
  18273 3047 5F5F4F42 		.ascii	"__OBSOLETE_MATH_DEFAULT 1\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 356
+ARM GAS  /tmp/ccnToDYn.s 			page 356
 
 
  18273      534F4C45 
@@ -21358,7 +21358,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18295      4269746D 
  18295      61705461 
  18295      626C6500 
-ARM GAS  /tmp/ccAMnzzp.s 			page 357
+ARM GAS  /tmp/ccnToDYn.s 			page 357
 
 
  18296              	.LASF1669:
@@ -21418,7 +21418,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18316      76655F6C 
  18316      6F636B28 
  18316      5F5F5641 
-ARM GAS  /tmp/ccAMnzzp.s 			page 358
+ARM GAS  /tmp/ccnToDYn.s 			page 358
 
 
  18316      5F415247 
@@ -21478,7 +21478,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18337 32f2 6F70656E 		.ascii	"open\000"
  18337      00
  18338              	.LASF449:
-ARM GAS  /tmp/ccAMnzzp.s 			page 359
+ARM GAS  /tmp/ccnToDYn.s 			page 359
 
 
  18339 32f7 5F5F4152 		.ascii	"__ARM_FEATURE_COPROC 15\000"
@@ -21538,7 +21538,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18356      41535438 
  18356      5F4D4158 
  18356      5F5F2030 
-ARM GAS  /tmp/ccAMnzzp.s 			page 360
+ARM GAS  /tmp/ccnToDYn.s 			page 360
 
 
  18357              	.LASF1376:
@@ -21598,7 +21598,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18377      2900
  18378              	.LASF1296:
  18379 350b 6765744D 		.ascii	"getMenuItemTitle\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 361
+ARM GAS  /tmp/ccnToDYn.s 			page 361
 
 
  18379      656E7549 
@@ -21658,7 +21658,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18399 35d1 6B447261 		.ascii	"kDrawModeNXOR\000"
  18399      774D6F64 
  18399      654E584F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 362
+ARM GAS  /tmp/ccnToDYn.s 			page 362
 
 
  18399      5200
@@ -21718,7 +21718,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18421      4343554D 
  18421      5F4D4158 
  18421      5F5F2030 
-ARM GAS  /tmp/ccAMnzzp.s 			page 363
+ARM GAS  /tmp/ccnToDYn.s 			page 363
 
 
  18421      58374646 
@@ -21778,7 +21778,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18443 3792 6C6F6164 		.ascii	"loadVideo\000"
  18443      56696465 
  18443      6F00
-ARM GAS  /tmp/ccAMnzzp.s 			page 364
+ARM GAS  /tmp/ccnToDYn.s 			page 364
 
 
  18444              	.LASF826:
@@ -21838,7 +21838,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18465              	.LASF1008:
  18466 3887 50545244 		.ascii	"PTRDIFF_MAX (__PTRDIFF_MAX__)\000"
  18466      4946465F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 365
+ARM GAS  /tmp/ccnToDYn.s 			page 365
 
 
  18466      4D415820 
@@ -21898,7 +21898,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18489 395b 6173293B 		.ascii	"as); __asm__(\".equ \" #alias \", \" #sym)\000"
  18489      205F5F61 
  18489      736D5F5F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 366
+ARM GAS  /tmp/ccnToDYn.s 			page 366
 
 
  18489      28222E65 
@@ -21958,7 +21958,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18508      5F444947 
  18509              	.LASF1186:
  18510 3a53 636C6561 		.ascii	"clear\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 367
+ARM GAS  /tmp/ccnToDYn.s 			page 367
 
 
  18510      7200
@@ -22018,7 +22018,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18531              	.LASF657:
  18532 3b25 5F5F7379 		.ascii	"__sym_default(sym,impl,verid) __asm__(\".symver \" "
  18532      6D5F6465 
-ARM GAS  /tmp/ccAMnzzp.s 			page 368
+ARM GAS  /tmp/ccnToDYn.s 			page 368
 
 
  18532      6661756C 
@@ -22078,7 +22078,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18552      464F5F45 
  18552      5155414C 
  18553              	.LASF544:
-ARM GAS  /tmp/ccAMnzzp.s 			page 369
+ARM GAS  /tmp/ccnToDYn.s 			page 369
 
 
  18554 3c3f 5F5F5F69 		.ascii	"___int_least32_t_defined 1\000"
@@ -22138,7 +22138,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18577              	.LASF596:
  18578 3d0a 5F5F636F 		.ascii	"__compiler_membar() __asm __volatile(\" \" : : : \""
  18578      6D70696C 
-ARM GAS  /tmp/ccAMnzzp.s 			page 370
+ARM GAS  /tmp/ccnToDYn.s 			page 370
 
 
  18578      65725F6D 
@@ -22198,7 +22198,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18599 3dcd 7365744D 		.ascii	"setMenuImage\000"
  18599      656E7549 
  18599      6D616765 
-ARM GAS  /tmp/ccAMnzzp.s 			page 371
+ARM GAS  /tmp/ccnToDYn.s 			page 371
 
 
  18599      00
@@ -22258,7 +22258,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18619      4E5F5F20 
  18620              	.LASF134:
  18621 3eb4 5F5F494E 		.ascii	"__INT_FAST64_WIDTH__ 64\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 372
+ARM GAS  /tmp/ccnToDYn.s 			page 372
 
 
  18621      545F4641 
@@ -22318,7 +22318,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18641      6F6E7365 
  18641      54797065 
  18641      00
-ARM GAS  /tmp/ccAMnzzp.s 			page 373
+ARM GAS  /tmp/ccnToDYn.s 			page 373
 
 
  18642              	.LASF247:
@@ -22378,7 +22378,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18663      4343554D 
  18663      5F455053 
  18663      494C4F4E 
-ARM GAS  /tmp/ccAMnzzp.s 			page 374
+ARM GAS  /tmp/ccnToDYn.s 			page 374
 
 
  18663      5F5F2030 
@@ -22438,7 +22438,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18682      36313934 
  18682      34393031 
  18683              	.LASF1820:
-ARM GAS  /tmp/ccAMnzzp.s 			page 375
+ARM GAS  /tmp/ccnToDYn.s 			page 375
 
 
  18684 414e 73657453 		.ascii	"setScale\000"
@@ -22498,7 +22498,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18702      75497465 
  18702      6D7300
  18703              	.LASF1512:
-ARM GAS  /tmp/ccAMnzzp.s 			page 376
+ARM GAS  /tmp/ccnToDYn.s 			page 376
 
 
  18704 4260 72657365 		.ascii	"resetCollisionWorld\000"
@@ -22558,7 +22558,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18724 4307 6C6F6164 		.ascii	"loadMidiFile\000"
  18724      4D696469 
  18724      46696C65 
-ARM GAS  /tmp/ccAMnzzp.s 			page 377
+ARM GAS  /tmp/ccnToDYn.s 			page 377
 
 
  18724      00
@@ -22618,7 +22618,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18747      454E4449 
  18747      414E5F5F 
  18748              	.LASF1259:
-ARM GAS  /tmp/ccAMnzzp.s 			page 378
+ARM GAS  /tmp/ccnToDYn.s 			page 378
 
 
  18749 4429 686F7572 		.ascii	"hour\000"
@@ -22678,7 +22678,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18767      72696275 
  18768              	.LASF1514:
  18769 4505 67657443 		.ascii	"getCollideRect\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 379
+ARM GAS  /tmp/ccnToDYn.s 			page 379
 
 
  18769      6F6C6C69 
@@ -22738,7 +22738,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18789      455F554E 
  18789      414C4947 
  18790              	.LASF290:
-ARM GAS  /tmp/ccAMnzzp.s 			page 380
+ARM GAS  /tmp/ccnToDYn.s 			page 380
 
 
  18791 45e2 5F5F5341 		.ascii	"__SACCUM_MAX__ 0X7FFFP-7HK\000"
@@ -22798,7 +22798,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18811      41525F4D 
  18812              	.LASF1048:
  18813 46af 48554745 		.ascii	"HUGE_VALF (__builtin_huge_valf())\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 381
+ARM GAS  /tmp/ccnToDYn.s 			page 381
 
 
  18813      5F56414C 
@@ -22858,7 +22858,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18833      6500
  18834              	.LASF1342:
  18835 4771 67657441 		.ascii	"getArgCount\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 382
+ARM GAS  /tmp/ccnToDYn.s 			page 382
 
 
  18835      7267436F 
@@ -22918,7 +22918,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18855 4847 73657441 		.ascii	"setAttackTime\000"
  18855      74746163 
  18855      6B54696D 
-ARM GAS  /tmp/ccAMnzzp.s 			page 383
+ARM GAS  /tmp/ccnToDYn.s 			page 383
 
 
  18855      6500
@@ -22978,7 +22978,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18875      00
  18876              	.LASF260:
  18877 4918 5F5F4652 		.ascii	"__FRACT_MAX__ 0X7FFFP-15R\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 384
+ARM GAS  /tmp/ccnToDYn.s 			page 384
 
 
  18877      4143545F 
@@ -23038,7 +23038,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18897      3000
  18898              	.LASF370:
  18899 49f2 5F5F4743 		.ascii	"__GCC_ATOMIC_BOOL_LOCK_FREE 2\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 385
+ARM GAS  /tmp/ccnToDYn.s 			page 385
 
 
  18899      435F4154 
@@ -23098,7 +23098,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18920      74656D56 
  18920      616C7565 
  18920      00
-ARM GAS  /tmp/ccAMnzzp.s 			page 386
+ARM GAS  /tmp/ccnToDYn.s 			page 386
 
 
  18921              	.LASF1034:
@@ -23158,7 +23158,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18943      55465F53 
  18943      54524541 
  18943      4D5F4F50 
-ARM GAS  /tmp/ccAMnzzp.s 			page 387
+ARM GAS  /tmp/ccnToDYn.s 			page 387
 
 
  18943      54203100 
@@ -23218,7 +23218,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18965      5F494E54 
  18965      31365F4D 
  18966              	.LASF115:
-ARM GAS  /tmp/ccAMnzzp.s 			page 388
+ARM GAS  /tmp/ccnToDYn.s 			page 388
 
 
  18967 4caa 5F5F494E 		.ascii	"__INT_LEAST32_WIDTH__ 32\000"
@@ -23278,7 +23278,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  18986      3100
  18987              	.LASF854:
  18988 4d9e 5F5F534E 		.ascii	"__SNLK 0x0001\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 389
+ARM GAS  /tmp/ccnToDYn.s 			page 389
 
 
  18988      4C4B2030 
@@ -23338,7 +23338,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19008 4e66 66696C6C 		.ascii	"fillPolygon\000"
  19008      506F6C79 
  19008      676F6E00 
-ARM GAS  /tmp/ccAMnzzp.s 			page 390
+ARM GAS  /tmp/ccnToDYn.s 			page 390
 
 
  19009              	.LASF155:
@@ -23398,7 +23398,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19028      545F5F20 
  19028      333100
  19029              	.LASF986:
-ARM GAS  /tmp/ccAMnzzp.s 			page 391
+ARM GAS  /tmp/ccnToDYn.s 			page 391
 
 
  19030 4f59 55494E54 		.ascii	"UINT64_MAX (__UINT64_MAX__)\000"
@@ -23458,7 +23458,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19049      4E545F4D 
  19049      494E5F5F 
  19049      20305500 
-ARM GAS  /tmp/ccAMnzzp.s 			page 392
+ARM GAS  /tmp/ccnToDYn.s 			page 392
 
 
  19050              	.LASF99:
@@ -23518,7 +23518,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19069 516f 5F5F5F69 		.ascii	"___int_least16_t_defined 1\000"
  19069      6E745F6C 
  19069      65617374 
-ARM GAS  /tmp/ccAMnzzp.s 			page 393
+ARM GAS  /tmp/ccnToDYn.s 			page 393
 
 
  19069      31365F74 
@@ -23578,7 +23578,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19089 5274 5F5F4C4F 		.ascii	"__LOCK_INIT(class,lock) extern struct __lock __lock"
  19089      434B5F49 
  19089      4E495428 
-ARM GAS  /tmp/ccAMnzzp.s 			page 394
+ARM GAS  /tmp/ccnToDYn.s 			page 394
 
 
  19089      636C6173 
@@ -23638,7 +23638,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19108              	.LASF619:
  19109 53a1 5F5F7573 		.ascii	"__used __attribute__((__used__))\000"
  19109      6564205F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 395
+ARM GAS  /tmp/ccnToDYn.s 			page 395
 
 
  19109      5F617474 
@@ -23698,7 +23698,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19129 5471 70646578 		.ascii	"pdext_sprite_h \000"
  19129      745F7370 
  19129      72697465 
-ARM GAS  /tmp/ccAMnzzp.s 			page 396
+ARM GAS  /tmp/ccnToDYn.s 			page 396
 
 
  19129      5F682000 
@@ -23758,7 +23758,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19148 55d7 6C6F6732 		.ascii	"log2(x) (log (x) / _M_LN2)\000"
  19148      28782920 
  19148      286C6F67 
-ARM GAS  /tmp/ccAMnzzp.s 			page 397
+ARM GAS  /tmp/ccnToDYn.s 			page 397
 
 
  19148      20287829 
@@ -23818,7 +23818,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19169 56da 5F5F5548 		.ascii	"__UHQ_IBIT__ 0\000"
  19169      515F4942 
  19169      49545F5F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 398
+ARM GAS  /tmp/ccnToDYn.s 			page 398
 
 
  19169      203000
@@ -23878,7 +23878,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19190 57dc 5F5F4C41 		.ascii	"__LACCUM_FBIT__ 31\000"
  19190      4343554D 
  19190      5F464249 
-ARM GAS  /tmp/ccAMnzzp.s 			page 399
+ARM GAS  /tmp/ccnToDYn.s 			page 399
 
 
  19190      545F5F20 
@@ -23938,7 +23938,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19212      28782920 
  19212      5F524545 
  19212      4E545F53 
-ARM GAS  /tmp/ccAMnzzp.s 			page 400
+ARM GAS  /tmp/ccnToDYn.s 			page 400
 
 
  19213              	.LASF1480:
@@ -23998,7 +23998,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19234      44203078 
  19234      30303034 
  19234      00
-ARM GAS  /tmp/ccAMnzzp.s 			page 401
+ARM GAS  /tmp/ccnToDYn.s 			page 401
 
 
  19235              	.LASF545:
@@ -24058,7 +24058,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19258      4D5F4645 
  19258      41545552 
  19258      455F4145 
-ARM GAS  /tmp/ccAMnzzp.s 			page 402
+ARM GAS  /tmp/ccnToDYn.s 			page 402
 
 
  19258      5300
@@ -24118,7 +24118,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19283              	.LASF892:
  19284 5ae1 66617374 		.ascii	"fast_putc(x,p) (--(p)->_w < 0 ? __swbuf_r(_REENT, ("
  19284      5F707574 
-ARM GAS  /tmp/ccAMnzzp.s 			page 403
+ARM GAS  /tmp/ccnToDYn.s 			page 403
 
 
  19284      6328782C 
@@ -24178,7 +24178,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19306 5c06 54455854 		.ascii	"TEXT_HEIGHT 16\000"
  19306      5F484549 
  19306      47485420 
-ARM GAS  /tmp/ccAMnzzp.s 			page 404
+ARM GAS  /tmp/ccnToDYn.s 			page 404
 
 
  19306      313600
@@ -24238,7 +24238,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19330 5cd1 6B536F75 		.ascii	"kSound8bitMono\000"
  19330      6E643862 
  19330      69744D6F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 405
+ARM GAS  /tmp/ccnToDYn.s 			page 405
 
 
  19330      6E6F00
@@ -24298,7 +24298,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19352      6646756E 
  19352      6300
  19353              	.LASF1454:
-ARM GAS  /tmp/ccAMnzzp.s 			page 406
+ARM GAS  /tmp/ccnToDYn.s 			page 406
 
 
  19354 5d91 436F6C6C 		.ascii	"CollisionPoint\000"
@@ -24358,7 +24358,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19373 5ebd 70757368 		.ascii	"pushBytes\000"
  19373      42797465 
  19373      7300
-ARM GAS  /tmp/ccAMnzzp.s 			page 407
+ARM GAS  /tmp/ccnToDYn.s 			page 407
 
 
  19374              	.LASF382:
@@ -24418,7 +24418,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19395      63616C69 
  19395      6E6700
  19396              	.LASF1835:
-ARM GAS  /tmp/ccAMnzzp.s 			page 408
+ARM GAS  /tmp/ccnToDYn.s 			page 408
 
 
  19397 5f9f 626F6172 		.ascii	"boards\000"
@@ -24478,7 +24478,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19416      44444546 
  19416      5F482000 
  19417              	.LASF1013:
-ARM GAS  /tmp/ccAMnzzp.s 			page 409
+ARM GAS  /tmp/ccnToDYn.s 			page 409
 
 
  19418 608d 57494E54 		.ascii	"WINT_MIN (__WINT_MIN__)\000"
@@ -24538,7 +24538,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19437              	.LASF376:
  19438 6162 5F5F4743 		.ascii	"__GCC_ATOMIC_INT_LOCK_FREE 2\000"
  19438      435F4154 
-ARM GAS  /tmp/ccAMnzzp.s 			page 410
+ARM GAS  /tmp/ccnToDYn.s 			page 410
 
 
  19438      4F4D4943 
@@ -24598,7 +24598,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19457      535F4E55 
  19457      4C4C285F 
  19457      70747229 
-ARM GAS  /tmp/ccAMnzzp.s 			page 411
+ARM GAS  /tmp/ccnToDYn.s 			page 411
 
 
  19458              	.LASF1030:
@@ -24658,7 +24658,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19479              	.LASF1319:
  19480 63ae 66756E63 		.ascii	"func\000"
  19480      00
-ARM GAS  /tmp/ccAMnzzp.s 			page 412
+ARM GAS  /tmp/ccnToDYn.s 			page 412
 
 
  19481              	.LASF1651:
@@ -24718,7 +24718,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19500      4D455F42 
  19500      55462870 
  19501 64c6 655F6275 		.ascii	"e_buf)\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 413
+ARM GAS  /tmp/ccnToDYn.s 			page 413
 
 
  19501      662900
@@ -24778,7 +24778,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19520 65b8 6B50444C 		.ascii	"kPDLanguageJapanese\000"
  19520      616E6775 
  19520      6167654A 
-ARM GAS  /tmp/ccAMnzzp.s 			page 414
+ARM GAS  /tmp/ccnToDYn.s 			page 414
 
 
  19520      6170616E 
@@ -24838,7 +24838,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19542 6665 5F5F6E65 		.ascii	"__need_ptrdiff_t\000"
  19542      65645F70 
  19542      74726469 
-ARM GAS  /tmp/ccAMnzzp.s 			page 415
+ARM GAS  /tmp/ccnToDYn.s 			page 415
 
 
  19542      66665F74 
@@ -24898,7 +24898,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19562      4E4F524D 
  19562      5F5F2031 
  19563              	.LASF1106:
-ARM GAS  /tmp/ccAMnzzp.s 			page 416
+ARM GAS  /tmp/ccnToDYn.s 			page 416
 
 
  19564 677c 70646578 		.ascii	"pdext_scoreboards_h \000"
@@ -24958,7 +24958,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19584 683f 70757463 		.ascii	"putchar_unlocked(_c) _putchar_unlocked(_c)\000"
  19584      6861725F 
  19584      756E6C6F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 417
+ARM GAS  /tmp/ccnToDYn.s 			page 417
 
 
  19584      636B6564 
@@ -25018,7 +25018,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19606      756D656E 
  19606      7400
  19607              	.LASF428:
-ARM GAS  /tmp/ccAMnzzp.s 			page 418
+ARM GAS  /tmp/ccnToDYn.s 			page 418
 
 
  19608 6928 5F5F4152 		.ascii	"__ARM_FP\000"
@@ -25078,7 +25078,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19628      6D656C69 
  19628      6B652866 
  19628      6D746172 
-ARM GAS  /tmp/ccAMnzzp.s 			page 419
+ARM GAS  /tmp/ccnToDYn.s 			page 419
 
 
  19629 6a08 5F666F72 		.ascii	"_format__ (__strftime__, fmtarg, firstvararg)))\000"
@@ -25138,7 +25138,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19649      6E00
  19650              	.LASF1442:
  19651 6ad1 77726974 		.ascii	"write\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 420
+ARM GAS  /tmp/ccnToDYn.s 			page 420
 
 
  19651      6500
@@ -25198,7 +25198,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19673              	.LASF630:
  19674 6bc2 5F5F616C 		.ascii	"__always_inline __inline__ __attribute__((__always_"
  19674      77617973 
-ARM GAS  /tmp/ccAMnzzp.s 			page 421
+ARM GAS  /tmp/ccnToDYn.s 			page 421
 
 
  19674      5F696E6C 
@@ -25258,7 +25258,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19694      69634361 
  19694      6C6C6261 
  19694      636B00
-ARM GAS  /tmp/ccAMnzzp.s 			page 422
+ARM GAS  /tmp/ccnToDYn.s 			page 422
 
 
  19695              	.LASF1638:
@@ -25318,7 +25318,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19716      7074725F 
  19716      7400
  19717              	.LASF32:
-ARM GAS  /tmp/ccAMnzzp.s 			page 423
+ARM GAS  /tmp/ccnToDYn.s 			page 423
 
 
  19718 6da8 5F5F5349 		.ascii	"__SIZEOF_POINTER__ 4\000"
@@ -25378,7 +25378,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19739              	.LASF1401:
  19740 6e74 64657074 		.ascii	"depth\000"
  19740      6800
-ARM GAS  /tmp/ccAMnzzp.s 			page 424
+ARM GAS  /tmp/ccnToDYn.s 			page 424
 
 
  19741              	.LASF459:
@@ -25438,7 +25438,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19759              	.LASF688:
  19760 6f6e 5F5F6E6F 		.ascii	"__nosanitizethread \000"
  19760      73616E69 
-ARM GAS  /tmp/ccAMnzzp.s 			page 425
+ARM GAS  /tmp/ccnToDYn.s 			page 425
 
 
  19760      74697A65 
@@ -25498,7 +25498,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19778      43544956 
  19778      455F5349 
  19779              	.LASF1088:
-ARM GAS  /tmp/ccAMnzzp.s 			page 426
+ARM GAS  /tmp/ccnToDYn.s 			page 426
 
 
  19780 70b9 4D5F5049 		.ascii	"M_PI 3.14159265358979323846\000"
@@ -25558,7 +25558,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19800      52414354 
  19800      5F4D494E 
  19800      5F5F2028 
-ARM GAS  /tmp/ccAMnzzp.s 			page 427
+ARM GAS  /tmp/ccnToDYn.s 			page 427
 
 
  19800      2D302E35 
@@ -25618,7 +25618,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19820      00
  19821              	.LASF1742:
  19822 72bf 706C6179 		.ascii	"playdate_sound_effect_delayline\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 428
+ARM GAS  /tmp/ccnToDYn.s 			page 428
 
 
  19822      64617465 
@@ -25678,7 +25678,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19844 7388 73657446 		.ascii	"setFrequency\000"
  19844      72657175 
  19844      656E6379 
-ARM GAS  /tmp/ccAMnzzp.s 			page 429
+ARM GAS  /tmp/ccnToDYn.s 			page 429
 
 
  19844      00
@@ -25738,7 +25738,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19865              	.LASF1490:
  19866 7464 67657449 		.ascii	"getImage\000"
  19866      6D616765 
-ARM GAS  /tmp/ccAMnzzp.s 			page 430
+ARM GAS  /tmp/ccnToDYn.s 			page 430
 
 
  19866      00
@@ -25798,7 +25798,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19886              	.LASF76:
  19887 7533 5F5F5743 		.ascii	"__WCHAR_MAX__ 0xffffffffU\000"
  19887      4841525F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 431
+ARM GAS  /tmp/ccnToDYn.s 			page 431
 
 
  19887      4D41585F 
@@ -25858,7 +25858,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19908      72674279 
  19908      74657300 
  19909              	.LASF1270:
-ARM GAS  /tmp/ccAMnzzp.s 			page 432
+ARM GAS  /tmp/ccnToDYn.s 			page 432
 
 
  19910 7630 7265616C 		.ascii	"realloc\000"
@@ -25918,7 +25918,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19931              	.LASF557:
  19932 771a 5F53495A 		.ascii	"_SIZE_T_DEFINED \000"
  19932      455F545F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 433
+ARM GAS  /tmp/ccnToDYn.s 			page 433
 
 
  19932      44454649 
@@ -25978,7 +25978,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19952 77d7 5F5F4641 		.ascii	"__FAST64 \"ll\"\000"
  19952      53543634 
  19952      20226C6C 
-ARM GAS  /tmp/ccAMnzzp.s 			page 434
+ARM GAS  /tmp/ccnToDYn.s 			page 434
 
 
  19952      2200
@@ -26038,7 +26038,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19976 7879 494E545F 		.ascii	"INT_LEAST8_MIN (-__INT_LEAST8_MAX__ - 1)\000"
  19976      4C454153 
  19976      54385F4D 
-ARM GAS  /tmp/ccAMnzzp.s 			page 435
+ARM GAS  /tmp/ccnToDYn.s 			page 435
 
 
  19976      494E2028 
@@ -26098,7 +26098,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  19995              	.LASF1249:
  19996 7964 6B427574 		.ascii	"kButtonA\000"
  19996      746F6E41 
-ARM GAS  /tmp/ccAMnzzp.s 			page 436
+ARM GAS  /tmp/ccnToDYn.s 			page 436
 
 
  19996      00
@@ -26158,7 +26158,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20016      4E545F43 
  20016      56544255 
  20016      46285F70 
-ARM GAS  /tmp/ccAMnzzp.s 			page 437
+ARM GAS  /tmp/ccnToDYn.s 			page 437
 
 
  20016      74722920 
@@ -26218,7 +26218,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20035              	.LASF793:
  20036 7bad 5F524545 		.ascii	"_REENT_RAND_NEXT(ptr) ((ptr)->_new._reent._rand_nex"
  20036      4E545F52 
-ARM GAS  /tmp/ccAMnzzp.s 			page 438
+ARM GAS  /tmp/ccnToDYn.s 			page 438
 
 
  20036      414E445F 
@@ -26278,7 +26278,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20057      6C6C6261 
  20057      636B4675 
  20058              	.LASF519:
-ARM GAS  /tmp/ccAMnzzp.s 			page 439
+ARM GAS  /tmp/ccnToDYn.s 			page 439
 
 
  20059 7cb0 5F524541 		.ascii	"_READ_WRITE_RETURN_TYPE int\000"
@@ -26338,7 +26338,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20078              	.LASF848:
  20079 7d75 5F5F5353 		.ascii	"__SSTR 0x0200\000"
  20079      54522030 
-ARM GAS  /tmp/ccAMnzzp.s 			page 440
+ARM GAS  /tmp/ccnToDYn.s 			page 440
 
 
  20079      78303230 
@@ -26398,7 +26398,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20099      745F6C65 
  20099      61737436 
  20099      345F745F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 441
+ARM GAS  /tmp/ccnToDYn.s 			page 441
 
 
  20099      64656669 
@@ -26458,7 +26458,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20119              	.LASF117:
  20120 7f91 5F5F494E 		.ascii	"__INT64_C(c) c ## LL\000"
  20120      5436345F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 442
+ARM GAS  /tmp/ccnToDYn.s 			page 442
 
 
  20120      43286329 
@@ -26518,7 +26518,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20140      5452494E 
  20141              	.LASF661:
  20142 8065 5F5F5343 		.ascii	"__SCCSID(s) struct __hack\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 443
+ARM GAS  /tmp/ccnToDYn.s 			page 443
 
 
  20142      43534944 
@@ -26578,7 +26578,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20160      52454420 
  20161              	.LASF1046:
  20162 814c 5F4D5F4C 		.ascii	"_M_LN2 0.693147180559945309417\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 444
+ARM GAS  /tmp/ccnToDYn.s 			page 444
 
 
  20162      4E322030 
@@ -26638,7 +26638,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20184      6C6500
  20185              	.LASF1005:
  20186 8211 53495A45 		.ascii	"SIZE_MAX (__SIZE_MAX__)\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 445
+ARM GAS  /tmp/ccnToDYn.s 			page 445
 
 
  20186      5F4D4158 
@@ -26698,7 +26698,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20203      56455F53 
  20204              	.LASF413:
  20205 8332 5F5F4152 		.ascii	"__ARM_SIZEOF_WCHAR_T 4\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 446
+ARM GAS  /tmp/ccnToDYn.s 			page 446
 
 
  20205      4D5F5349 
@@ -26758,7 +26758,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20224      50434D4D 
  20224      6F6E6F00 
  20225              	.LASF718:
-ARM GAS  /tmp/ccAMnzzp.s 			page 447
+ARM GAS  /tmp/ccnToDYn.s 			page 447
 
 
  20226 841a 5F425344 		.ascii	"_BSD_WCHAR_T_ \000"
@@ -26818,7 +26818,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20246      53454544 
  20246      5F302028 
  20246      30783333 
-ARM GAS  /tmp/ccAMnzzp.s 			page 448
+ARM GAS  /tmp/ccnToDYn.s 			page 448
 
 
  20247              	.LASF1782:
@@ -26878,7 +26878,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20267 85cc 64617461 		.ascii	"data\000"
  20267      00
  20268              	.LASF85:
-ARM GAS  /tmp/ccAMnzzp.s 			page 449
+ARM GAS  /tmp/ccnToDYn.s 			page 449
 
 
  20269 85d1 5F5F4C4F 		.ascii	"__LONG_WIDTH__ 32\000"
@@ -26938,7 +26938,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20288              	.LASF416:
  20289 869d 5F5F6172 		.ascii	"__arm__ 1\000"
  20289      6D5F5F20 
-ARM GAS  /tmp/ccAMnzzp.s 			page 450
+ARM GAS  /tmp/ccnToDYn.s 			page 450
 
 
  20289      3100
@@ -26998,7 +26998,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20309      61747472 
  20310              	.LASF1513:
  20311 878c 73657443 		.ascii	"setCollideRect\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 451
+ARM GAS  /tmp/ccnToDYn.s 			page 451
 
 
  20311      6F6C6C69 
@@ -27058,7 +27058,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20331              	.LASF643:
  20332 888c 5F5F6869 		.ascii	"__hidden __attribute__((__visibility__(\"hidden\"))"
  20332      6464656E 
-ARM GAS  /tmp/ccAMnzzp.s 			page 452
+ARM GAS  /tmp/ccnToDYn.s 			page 452
 
 
  20332      205F5F61 
@@ -27118,7 +27118,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20355      4D494E5F 
  20355      4558505F 
  20355      5F20282D 
-ARM GAS  /tmp/ccAMnzzp.s 			page 453
+ARM GAS  /tmp/ccnToDYn.s 			page 453
 
 
  20356              	.LASF62:
@@ -27178,7 +27178,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20377      00
  20378              	.LASF527:
  20379 8a44 5F454C49 		.ascii	"_ELIDABLE_INLINE static __inline__\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 454
+ARM GAS  /tmp/ccnToDYn.s 			page 454
 
 
  20379      4441424C 
@@ -27238,7 +27238,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20399      5F455850 
  20399      5F5F2028 
  20400              	.LASF705:
-ARM GAS  /tmp/ccAMnzzp.s 			page 455
+ARM GAS  /tmp/ccnToDYn.s 			page 455
 
 
  20401 8b1d 5F425344 		.ascii	"_BSD_PTRDIFF_T_ \000"
@@ -27298,7 +27298,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20421      4269746D 
  20421      617000
  20422              	.LASF1278:
-ARM GAS  /tmp/ccAMnzzp.s 			page 456
+ARM GAS  /tmp/ccnToDYn.s 			page 456
 
 
  20423 8be7 73657455 		.ascii	"setUpdateCallback\000"
@@ -27358,7 +27358,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20442      66667365 
  20442      7400
  20443              	.LASF1109:
-ARM GAS  /tmp/ccAMnzzp.s 			page 457
+ARM GAS  /tmp/ccnToDYn.s 			page 457
 
 
  20444 8cc5 6C6F6E67 		.ascii	"long long unsigned int\000"
@@ -27418,7 +27418,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20464 8d6b 706C6179 		.ascii	"playdate_sound\000"
  20464      64617465 
  20464      5F736F75 
-ARM GAS  /tmp/ccAMnzzp.s 			page 458
+ARM GAS  /tmp/ccnToDYn.s 			page 458
 
 
  20464      6E6400
@@ -27478,7 +27478,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20486      4E545054 
  20486      525F4D41 
  20486      585F5F20 
-ARM GAS  /tmp/ccAMnzzp.s 			page 459
+ARM GAS  /tmp/ccnToDYn.s 			page 459
 
 
  20486      30786666 
@@ -27538,7 +27538,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20506      36345F54 
  20506      5950455F 
  20507              	.LASF675:
-ARM GAS  /tmp/ccAMnzzp.s 			page 460
+ARM GAS  /tmp/ccnToDYn.s 			page 460
 
 
  20508 8f49 5F5F6C6F 		.ascii	"__locks_exclusive(...) __lock_annotate(exclusive_lo"
@@ -27598,7 +27598,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20526              	.LASF1552:
  20527 9046 7365744F 		.ascii	"setOffset\000"
  20527      66667365 
-ARM GAS  /tmp/ccAMnzzp.s 			page 461
+ARM GAS  /tmp/ccnToDYn.s 			page 461
 
 
  20527      7400
@@ -27658,7 +27658,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20548      71756972 
  20548      655F7265 
  20548      63757273 
-ARM GAS  /tmp/ccAMnzzp.s 			page 462
+ARM GAS  /tmp/ccnToDYn.s 			page 462
 
 
  20548      69766528 
@@ -27718,7 +27718,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20570 921b 5F5F6578 		.ascii	"__exported __attribute__((__visibility__(\"default\""
  20570      706F7274 
  20570      6564205F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 463
+ARM GAS  /tmp/ccnToDYn.s 			page 463
 
 
  20570      5F617474 
@@ -27778,7 +27778,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20592      5F464149 
  20592      4C555245 
  20592      203100
-ARM GAS  /tmp/ccAMnzzp.s 			page 464
+ARM GAS  /tmp/ccnToDYn.s 			page 464
 
 
  20593              	.LASF606:
@@ -27838,7 +27838,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20614 9402 55494E54 		.ascii	"UINT_FAST8_MAX (__UINT_FAST8_MAX__)\000"
  20614      5F464153 
  20614      54385F4D 
-ARM GAS  /tmp/ccAMnzzp.s 			page 465
+ARM GAS  /tmp/ccnToDYn.s 			page 465
 
 
  20614      41582028 
@@ -27898,7 +27898,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20633      44454E4F 
  20633      524D5F4D 
  20633      494E5F5F 
-ARM GAS  /tmp/ccAMnzzp.s 			page 466
+ARM GAS  /tmp/ccnToDYn.s 			page 466
 
 
  20634              	.LASF1826:
@@ -27958,7 +27958,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20654              	.LASF354:
  20655 963b 5F5F5441 		.ascii	"__TA_IBIT__ 64\000"
  20655      5F494249 
-ARM GAS  /tmp/ccAMnzzp.s 			page 467
+ARM GAS  /tmp/ccnToDYn.s 			page 467
 
 
  20655      545F5F20 
@@ -28018,7 +28018,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20674      64656669 
  20675              	.LASF1615:
  20676 9735 73657453 		.ascii	"setSustain\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 468
+ARM GAS  /tmp/ccnToDYn.s 			page 468
 
 
  20676      75737461 
@@ -28078,7 +28078,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20697      5053494C 
  20697      4F4E5F5F 
  20698              	.LASF409:
-ARM GAS  /tmp/ccAMnzzp.s 			page 469
+ARM GAS  /tmp/ccnToDYn.s 			page 469
 
 
  20699 981c 5F5F4152 		.ascii	"__ARM_FEATURE_CLZ 1\000"
@@ -28138,7 +28138,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20719 98d6 73657450 		.ascii	"setPanModulator\000"
  20719      616E4D6F 
  20719      64756C61 
-ARM GAS  /tmp/ccAMnzzp.s 			page 470
+ARM GAS  /tmp/ccnToDYn.s 			page 470
 
 
  20719      746F7200 
@@ -28198,7 +28198,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20741      73616D70 
  20741      6C696E67 
  20741      00
-ARM GAS  /tmp/ccAMnzzp.s 			page 471
+ARM GAS  /tmp/ccnToDYn.s 			page 471
 
 
  20742              	.LASF609:
@@ -28258,7 +28258,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20761      385F4328 
  20761      7829205F 
  20761      5F55494E 
-ARM GAS  /tmp/ccAMnzzp.s 			page 472
+ARM GAS  /tmp/ccnToDYn.s 			page 472
 
 
  20761      54385F43 
@@ -28318,7 +28318,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20781 9b76 6C6F6E67 		.ascii	"long unsigned int\000"
  20781      20756E73 
  20781      69676E65 
-ARM GAS  /tmp/ccAMnzzp.s 			page 473
+ARM GAS  /tmp/ccnToDYn.s 			page 473
 
 
  20781      6420696E 
@@ -28378,7 +28378,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20803      00
  20804              	.LASF1434:
  20805 9c34 67657465 		.ascii	"geterr\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 474
+ARM GAS  /tmp/ccnToDYn.s 			page 474
 
 
  20805      727200
@@ -28438,7 +28438,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20827              	.LASF886:
  20828 9d0d 636C6561 		.ascii	"clearerr(p) __sclearerr(p)\000"
  20828      72657272 
-ARM GAS  /tmp/ccAMnzzp.s 			page 475
+ARM GAS  /tmp/ccnToDYn.s 			page 475
 
 
  20828      28702920 
@@ -28498,7 +28498,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20848      20302E34 
  20848      33343239 
  20848      34343831 
-ARM GAS  /tmp/ccAMnzzp.s 			page 476
+ARM GAS  /tmp/ccnToDYn.s 			page 476
 
 
  20849              	.LASF1321:
@@ -28558,7 +28558,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20868      494E544D 
  20869              	.LASF1076:
  20870 9eea 69736C65 		.ascii	"islessequal(__x,__y) (__builtin_islessequal (__x, _"
-ARM GAS  /tmp/ccAMnzzp.s 			page 477
+ARM GAS  /tmp/ccnToDYn.s 			page 477
 
 
  20870      73736571 
@@ -28618,7 +28618,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20889      696D7075 
  20889      72655F70 
  20889      747200
-ARM GAS  /tmp/ccAMnzzp.s 			page 478
+ARM GAS  /tmp/ccnToDYn.s 			page 478
 
 
  20890              	.LASF1784:
@@ -28678,7 +28678,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20911      435F5354 
  20911      41544528 
  20912 a0d5 635F7374 		.ascii	"c_state)\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 479
+ARM GAS  /tmp/ccnToDYn.s 			page 479
 
 
  20912      61746529 
@@ -28738,7 +28738,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20933      41525F4D 
  20934              	.LASF405:
  20935 a1b3 5F5F4152 		.ascii	"__ARM_FEATURE_MVE\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 480
+ARM GAS  /tmp/ccnToDYn.s 			page 480
 
 
  20935      4D5F4645 
@@ -28798,7 +28798,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20955      585F5F20 
  20955      30583746 
  20956              	.LASF1208:
-ARM GAS  /tmp/ccAMnzzp.s 			page 481
+ARM GAS  /tmp/ccnToDYn.s 			page 481
 
 
  20957 a2c2 6E657742 		.ascii	"newBitmap\000"
@@ -28858,7 +28858,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20976 a397 5F5F4E55 		.ascii	"__NULLABILITY_PRAGMA_POP \000"
  20976      4C4C4142 
  20976      494C4954 
-ARM GAS  /tmp/ccAMnzzp.s 			page 482
+ARM GAS  /tmp/ccnToDYn.s 			page 482
 
 
  20976      595F5052 
@@ -28918,7 +28918,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  20996      66666563 
  20997              	.LASF1591:
  20998 a4a2 6B4C464F 		.ascii	"kLFOTypeSawtoothUp\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 483
+ARM GAS  /tmp/ccnToDYn.s 			page 483
 
 
  20998      54797065 
@@ -28978,7 +28978,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  21018      00
  21019              	.LASF167:
  21020 a55c 5F5F4442 		.ascii	"__DBL_MIN_EXP__ (-1021)\000"
-ARM GAS  /tmp/ccAMnzzp.s 			page 484
+ARM GAS  /tmp/ccnToDYn.s 			page 484
 
 
  21020      4C5F4D49 
@@ -29038,7 +29038,7 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  21042              	.LASF398:
  21043 a635 5F5F4152 		.ascii	"__ARM_FEATURE_DOTPROD\000"
  21043      4D5F4645 
-ARM GAS  /tmp/ccAMnzzp.s 			page 485
+ARM GAS  /tmp/ccnToDYn.s 			page 485
 
 
  21043      41545552 
@@ -29049,32 +29049,32 @@ ARM GAS  /tmp/ccAMnzzp.s 			page 1
  21045      6F746573 
  21045      4F666600 
  21046              		.ident	"GCC: (Arch Repository) 13.2.0"
-ARM GAS  /tmp/ccAMnzzp.s 			page 486
+ARM GAS  /tmp/ccnToDYn.s 			page 486
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-     /tmp/ccAMnzzp.s:27     .rodata.update.str1.4:00000000 $d
-     /tmp/ccAMnzzp.s:31     .text.update:00000000 $t
-     /tmp/ccAMnzzp.s:37     .text.update:00000000 update
-     /tmp/ccAMnzzp.s:181    .text.update:0000006c $d
-     /tmp/ccAMnzzp.s:354    .data.y:00000000 y
-     /tmp/ccAMnzzp.s:361    .data.x:00000000 x
-     /tmp/ccAMnzzp.s:368    .bss.font:00000000 font
-     /tmp/ccAMnzzp.s:340    .data.dy:00000000 dy
-     /tmp/ccAMnzzp.s:347    .data.dx:00000000 dx
-     /tmp/ccAMnzzp.s:191    .rodata.eventHandler.str1.4:00000000 $d
-     /tmp/ccAMnzzp.s:198    .text.eventHandler:00000000 $t
-     /tmp/ccAMnzzp.s:205    .text.eventHandler:00000000 eventHandler
-     /tmp/ccAMnzzp.s:326    .text.eventHandler:00000044 $d
-     /tmp/ccAMnzzp.s:379    .data.fontpath:00000000 fontpath
-     /tmp/ccAMnzzp.s:337    .data.dy:00000000 $d
-     /tmp/ccAMnzzp.s:344    .data.dx:00000000 $d
-     /tmp/ccAMnzzp.s:351    .data.y:00000000 $d
-     /tmp/ccAMnzzp.s:358    .data.x:00000000 $d
-     /tmp/ccAMnzzp.s:365    .bss.font:00000000 $d
-     /tmp/ccAMnzzp.s:372    .rodata.str1.4:00000000 $d
-     /tmp/ccAMnzzp.s:376    .data.fontpath:00000000 $d
+     /tmp/ccnToDYn.s:27     .rodata.update.str1.4:00000000 $d
+     /tmp/ccnToDYn.s:31     .text.update:00000000 $t
+     /tmp/ccnToDYn.s:37     .text.update:00000000 update
+     /tmp/ccnToDYn.s:181    .text.update:0000006c $d
+     /tmp/ccnToDYn.s:354    .data.y:00000000 y
+     /tmp/ccnToDYn.s:361    .data.x:00000000 x
+     /tmp/ccnToDYn.s:368    .bss.font:00000000 font
+     /tmp/ccnToDYn.s:340    .data.dy:00000000 dy
+     /tmp/ccnToDYn.s:347    .data.dx:00000000 dx
+     /tmp/ccnToDYn.s:191    .rodata.eventHandler.str1.4:00000000 $d
+     /tmp/ccnToDYn.s:198    .text.eventHandler:00000000 $t
+     /tmp/ccnToDYn.s:205    .text.eventHandler:00000000 eventHandler
+     /tmp/ccnToDYn.s:326    .text.eventHandler:00000044 $d
+     /tmp/ccnToDYn.s:379    .data.fontpath:00000000 fontpath
+     /tmp/ccnToDYn.s:337    .data.dy:00000000 $d
+     /tmp/ccnToDYn.s:344    .data.dx:00000000 $d
+     /tmp/ccnToDYn.s:351    .data.y:00000000 $d
+     /tmp/ccnToDYn.s:358    .data.x:00000000 $d
+     /tmp/ccnToDYn.s:365    .bss.font:00000000 $d
+     /tmp/ccnToDYn.s:372    .rodata.str1.4:00000000 $d
+     /tmp/ccnToDYn.s:376    .data.fontpath:00000000 $d
                            .group:00000000 wm4.0.6c37fa93712cf185c4641ba60800c6a4
                            .group:00000000 wm4._newlib_version.h.4.6d111ab2e95434b664b53815e5c8ccba
                            .group:00000000 wm4.newlib.h.27.13c3dcbbace0888e13b51843af197034
@@ -29109,7 +29109,7 @@ DEFINED SYMBOLS
                            .group:00000000 wm4.pd_api_sound.h.10.ed55dbbdec2845a7dda57f639513c716
                            .group:00000000 wm4.math.h.13.bfe99ddc722af958485a9476cb19e167
 
-ARM GAS  /tmp/ccAMnzzp.s 			page 487
+ARM GAS  /tmp/ccnToDYn.s 			page 487
 
 
 NO UNDEFINED SYMBOLS
