@@ -1,0 +1,4 @@
+build/*
+HelloWorld.pdx/*
+Source/pdex.elf
+Source/pdex.so

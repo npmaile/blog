@@ -1,7 +1,0 @@
-name=Hello World C
-author=Dave Hayden
-description=A small demo of the C API
-bundleID=com.panic.hellocapi
-imagePath=
-pdxversion=20000
-buildtime=750474087
