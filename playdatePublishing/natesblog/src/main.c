@@ -57,21 +57,21 @@ static int update(void *userdata) {
 }
 
 static char *junktext =
-    "sjdlkfjdslkfjlksjdfjlkdsjflkslkfjlkdsjflksjlkfjdlkfjslkfjlkdsjlkfdslkjfdsj"
-    "lkfjdslkjflksjflkjslkfjkljdslkfjslkfjlkjdslkfsjlkfjlkfds";
+	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
 static void splitLines() {
-  int charsPerLine = SCREEN_WIDTH / TEXT_WIDTH;
+  int charsPerLine = 20;
   // split junk text into lines of width charsPerLine
   int len = strlen(junktext);
-  int numlines = len / charsPerLine;
+  numlines = len / charsPerLine;
   lines = malloc(sizeof(char *) * numlines);
-  for (int i = 0; i < len; i++) {
-    char *line = malloc(sizeof(char) * charsPerLine);
+  for (int i = 0; i < numlines; i++) {
+    char *line = malloc(sizeof(char) * charsPerLine + 1);
     int j = 0;
-    for (; (j < i * charsPerLine + 1) && line[i * charsPerLine + 1] != '\0';
+    for (;
+         (j < charsPerLine) && (junktext[i * charsPerLine + j] != '\0');
          j++) {
-      line[j] = i * charsPerLine + j;
+      line[j] = junktext[i * charsPerLine + j];
     }
     line[j] = '\0';
     lines[i] = line;
