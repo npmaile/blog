@@ -6,65 +6,107 @@
 //  Copyright (c) 2014 Panic, Inc. All rights reserved.
 //
 
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #include "pd_api.h"
+#include "pd_api/pd_api_gfx.h"
+#include "pd_api/pd_api_sys.h"
 
-static int update(void* userdata);
-const char* fontpath = "/System/Fonts/Asheville-Sans-14-Bold.pft";
-LCDFont* font = NULL;
+static int update(void *userdata);
+static void splitLines();
+// static void angleDrawLine(void *userdata, float);
+LCDFont *font = NULL;
 
 #ifdef _WINDLL
 __declspec(dllexport)
 #endif
-int eventHandler(PlaydateAPI* pd, PDSystemEvent event, uint32_t arg)
-{
-	(void)arg; // arg is currently only used for event = kEventKeyPressed
+    int eventHandler(PlaydateAPI *pd, PDSystemEvent event, uint32_t arg) {
+  (void)arg; // arg is currently only used for event = kEventKeyPressed
 
-	if ( event == kEventInit )
-	{
-		const char* err;
-		font = pd->graphics->loadFont(fontpath, &err);
-		
-		if ( font == NULL )
-			pd->system->error("%s:%i Couldn't load font %s: %s", __FILE__, __LINE__, fontpath, err);
-
-		// Note: If you set an update callback in the kEventInit handler, the system assumes the game is pure C and doesn't run any Lua code in the game
-		pd->system->setUpdateCallback(update, pd);
-	}
-	
-	return 0;
+  if (event == kEventInit) {
+    const char *err;
+    pd->system->setUpdateCallback(update, pd);
+    splitLines();
+  }
+  return 0;
 }
 
+#define SCREEN_HEIGHT 240
+#define SCREEN_WIDTH 400
 
 #define TEXT_WIDTH 86
 #define TEXT_HEIGHT 16
 
-int x = (400-TEXT_WIDTH)/2;
-int y = (240-TEXT_HEIGHT)/2;
-int dx = 1;
-int dy = 2;
+static char **lines;
+static int numlines;
 
-static int update(void* userdata)
-{
-	PlaydateAPI* pd = userdata;
-	
-	pd->graphics->clear(kColorWhite);
-	pd->graphics->setFont(font);
-	pd->graphics->drawText("Hello World!", strlen("Hello World!"), kASCIIEncoding, x, y);
+static int update(void *userdata) {
+  PlaydateAPI *pd = userdata;
+  pd->graphics->clear(kColorWhite);
+  pd->graphics->setFont(font);
+  for (int i = 0; i < numlines; i++) {
+    pd->graphics->drawText(lines[i], strlen(lines[i]), kUTF8Encoding, 0,
+                           i * TEXT_HEIGHT);
+  }
+  // pd->graphics->drawText(JUNK_TEXT, strlen(junktext), kUTF8Encoding, 0, 0);
 
-	x += dx;
-	y += dy;
-	
-	if ( x < 0 || x > LCD_COLUMNS - TEXT_WIDTH )
-		dx = -dx;
-	
-	if ( y < 0 || y > LCD_ROWS - TEXT_HEIGHT )
-		dy = -dy;
-        
-	pd->system->drawFPS(0,0);
-
-	return 1;
+  return 1;
 }
 
+static char *junktext =
+    "sjdlkfjdslkfjlksjdfjlkdsjflkslkfjlkdsjflksjlkfjdlkfjslkfjlkdsjlkfdslkjfdsj"
+    "lkfjdslkjflksjflkjslkfjkljdslkfjslkfjlkjdslkfsjlkfjlkfds";
+
+static void splitLines() {
+  int charsPerLine = SCREEN_WIDTH / TEXT_WIDTH;
+  // split junk text into lines of width charsPerLine
+  int len = strlen(junktext);
+  int numlines = len / charsPerLine;
+  lines = malloc(sizeof(char *) * numlines);
+  for (int i = 0; i < len; i++) {
+    char *line = malloc(sizeof(char) * charsPerLine);
+    int j = 0;
+    for (; (j < i * charsPerLine + 1) && line[i * charsPerLine + 1] != '\0';
+         j++) {
+      line[j] = i * charsPerLine + j;
+    }
+    line[j] = '\0';
+    lines[i] = line;
+  }
+}
+
+/*
+static float linelength = 2.0f;
+static int lineWidth = 1;
+
+void angleDrawLine(void *userdata, float angle) {
+  PlaydateAPI *pd = userdata;
+  PDButtons current;
+  PDButtons pushed;
+  PDButtons released;
+  pd->system->getButtonState(&current, &pushed, &released);
+  if (pushed & kButtonUp) {
+    linelength += 1.0f;
+  }
+  if (pushed & kButtonDown) {
+    linelength -= 1.0f;
+  }
+  if (pushed & kButtonLeft) {
+    lineWidth -= 1;
+  }
+  if (pushed & kButtonRight) {
+    lineWidth += 1;
+  }
+
+  float angleRad = angle * 3.14f / 180.0f;
+  float x0 = SCREEN_WIDTH * .5f;
+  float x1 = x0 + linelength * cosf(angleRad);
+  float y0 = SCREEN_HEIGHT * .5f;
+  float y1 = y0 + linelength * sinf(angleRad);
+
+  pd->graphics->drawLine(x0, y0, x1, y1, lineWidth, kColorXOR);
+}
+*/
