@@ -17,6 +17,7 @@
 
 static int update(void *userdata);
 static void splitLines();
+static void printText();
 // static void angleDrawLine(void *userdata, float);
 LCDFont *font = NULL;
 
@@ -37,7 +38,6 @@ __declspec(dllexport)
 #define SCREEN_HEIGHT 240
 #define SCREEN_WIDTH 400
 
-#define TEXT_WIDTH 86
 #define TEXT_HEIGHT 16
 
 static char **lines;
@@ -57,10 +57,16 @@ static int update(void *userdata) {
 }
 
 static char *junktext =
-	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+    "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim "
+    "veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea "
+    "commodo consequat. Duis aute irure dolor in reprehenderit in voluptate "
+    "velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint "
+    "occaecat cupidatat non proident, sunt in culpa qui officia deserunt "
+    "mollit anim id est laborum.";
 
 static void splitLines() {
-  int charsPerLine = 20;
+  int charsPerLine = 50;
   // split junk text into lines of width charsPerLine
   int len = strlen(junktext);
   numlines = len / charsPerLine;
@@ -68,8 +74,7 @@ static void splitLines() {
   for (int i = 0; i < numlines; i++) {
     char *line = malloc(sizeof(char) * charsPerLine + 1);
     int j = 0;
-    for (;
-         (j < charsPerLine) && (junktext[i * charsPerLine + j] != '\0');
+    for (; (j < charsPerLine) && (junktext[i * charsPerLine + j] != '\0');
          j++) {
       line[j] = junktext[i * charsPerLine + j];
     }
